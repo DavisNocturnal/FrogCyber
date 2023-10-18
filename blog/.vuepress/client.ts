@@ -37,7 +37,10 @@ import {
 	ViFileTypeSql,
 	ViFileTypePlsqlPackageSpec,
 	ViFileTypePhp2,
-	ViFileTypeAngular
+	ViFileTypeAngular,
+	FcTreeStructure,
+	ViFileTypeMaven,
+	ViFileTypeStoryboard
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -78,7 +81,10 @@ addIcons(
 	ViFileTypeSql,
 	ViFileTypePlsqlPackageSpec,
 	ViFileTypePhp2,
-	ViFileTypeAngular
+	ViFileTypeAngular,
+	FcTreeStructure,
+	ViFileTypeMaven,
+	ViFileTypeStoryboard
 );
 
 export default defineClientConfig({});

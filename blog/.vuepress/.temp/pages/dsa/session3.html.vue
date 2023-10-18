@@ -12,7 +12,7 @@ tags:
   - Data structures 
   - DSA
 --- -->
-<p>Danh sách đặc là cấu trúc bạn gặp phải rất nhiều, nhưng có lẽ bạn sẽ không biết nếu chưa học về DSA.</p>
+<h1 id="danh-sach-lien-ket" tabindex="-1"><a class="header-anchor" href="#danh-sach-lien-ket" aria-hidden="true">#</a> Danh sách liên kết</h1>
 <!-- more -->
 <hr>
 <h2 id="danh-sach-lien-ket-la-gi" tabindex="-1"><a class="header-anchor" href="#danh-sach-lien-ket-la-gi" aria-hidden="true">#</a> Danh sách liên kết là gì?</h2>

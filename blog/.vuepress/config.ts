@@ -191,6 +191,23 @@ export default defineUserConfig({
 				icon: "ri-code-s-slash-line",
 				children: [
 					{
+						text: "Cơ sở ngành",
+						// link: "/docs/intro.md",
+						// icon: "vi-file-type-cpp",
+						children: [
+							{
+								text: "Lý thuyết đồ thị",
+								link: "/graph/",
+								icon: "vi-file-type-storyboard"
+							},
+							{
+								text: "Cấu trúc dữ liệu & giải thuật",
+								link: "/dsa/",
+								icon: "fc-tree-structure"
+							},
+						]
+					},
+					{
 						text: "Lập trình căn bản",
 						// link: "/docs/intro.md",
 						// icon: "vi-file-type-cpp",
@@ -214,7 +231,7 @@ export default defineUserConfig({
 							{
 								text: "Lập trình Hướng đối tượng với Java",
 								link: "/java-oop/",
-								icon: "vi-file-type-haskell2"
+								icon: "vi-file-type-maven"
 							},
 						]
 					},

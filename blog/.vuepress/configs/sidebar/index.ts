@@ -79,6 +79,19 @@ export const en: SidebarConfig = {
 		"/sql-server/session6.md",
 		"/sql-server/session7.md",
 		"/sql-server/session8.md",
+	],
+
+
+	"/dsa/": [
+		"/dsa/readme.md",
+		"/dsa/session1.md",
+		"/dsa/session2.md",
+		"/dsa/session3.md",
+		// "/dsa/session4.md",
+		// "/dsa/session5.md",
+		// "/dsa/session6.md",
+		// "/dsa/session7.md",
+		// "/dsa/session8.md",
 	]
 
 };

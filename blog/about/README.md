@@ -37,6 +37,7 @@
 - Chúng mình đã xây dựng một [Ứng dụng desktop]() quản lý bán hàng của một cửa hàng.
 - Mình có sử dụng các thư viện để tương tác với phần cứng và phần mềm ngoại vi khác như: Excel, Webcame, Fax,...
 - Có thể tạo và quét các mã QR để quản lý các sản phẩm tốt hơn...
+
 - Các bạn có thể đọc tại [đây](https://caodang.fpt.edu.vn/tin-tuc-poly/can-tho-tin-sinh-vien/du-an-phan-mem-quan-ly-ban-phu-kien-thiet-bi-di-dong-cua-sinh-vien-fpoly-can-tho-lot-mat-xanh-cua-giang-vien.html?fbclid=IwAR0yKQu_L3DhIKrfLxdKZRbfZB9zGWySvjc3_qxPa2HS3_qXcoPjM98uUnk)
 
 

@@ -2,7 +2,7 @@
 layout: Post
 title: Tìm hiểu về Session, Cookie trong Xác thực người dùng
 subtitle: Session, Cookie là gì?
-author: Theanishtar
+author: Trần Hữu Đang
 date: 2023-09-03
 useHeaderImage: false
 headerImage: https://github.com/dangtranhuu/images/blob/main/angurvad/backend/session-cookie/banner.png?raw=true

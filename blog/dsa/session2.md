@@ -14,7 +14,7 @@ tags:
 --- -->
 
 
-Danh sách đặc là cấu trúc bạn gặp phải rất nhiều, nhưng có lẽ bạn sẽ không biết nếu chưa học về DSA.
+# Danh sách đặc
 <!-- more -->
 
 ---

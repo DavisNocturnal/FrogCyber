@@ -31,11 +31,21 @@
 <h3 id="du-an-1" tabindex="-1"><a class="header-anchor" href="#du-an-1" aria-hidden="true">#</a> Dự án 1</h3>
 <img src="https://github.com/dangtranhuu/images/blob/main/news/du-an-1.png?raw=true" title="" alt="06-00-18-00-html5.gif" width="800">
 <ul>
-<li>Dự án 1 là môn học kết thúc một nửa chặng đường học tập tạo FPOLY của mình cũng như môn học cuối cùng về công nghệ Java Swing</li>
-<li>Chúng mình đã xây dựng một <a href="">Ứng dụng desktop</a> quản lý bán hàng của một cửa hàng.</li>
-<li>Mình có sử dụng các thư viện để tương tác với phần cứng và phần mềm ngoại vi khác như: Excel, Webcame, Fax,...</li>
-<li>Có thể tạo và quét các mã QR để quản lý các sản phẩm tốt hơn...</li>
-<li>Các bạn có thể đọc tại <a href="https://caodang.fpt.edu.vn/tin-tuc-poly/can-tho-tin-sinh-vien/du-an-phan-mem-quan-ly-ban-phu-kien-thiet-bi-di-dong-cua-sinh-vien-fpoly-can-tho-lot-mat-xanh-cua-giang-vien.html?fbclid=IwAR0yKQu_L3DhIKrfLxdKZRbfZB9zGWySvjc3_qxPa2HS3_qXcoPjM98uUnk" target="_blank" rel="noopener noreferrer">đây</a></li>
+<li>
+<p>Dự án 1 là môn học kết thúc một nửa chặng đường học tập tạo FPOLY của mình cũng như môn học cuối cùng về công nghệ Java Swing</p>
+</li>
+<li>
+<p>Chúng mình đã xây dựng một <a href="">Ứng dụng desktop</a> quản lý bán hàng của một cửa hàng.</p>
+</li>
+<li>
+<p>Mình có sử dụng các thư viện để tương tác với phần cứng và phần mềm ngoại vi khác như: Excel, Webcame, Fax,...</p>
+</li>
+<li>
+<p>Có thể tạo và quét các mã QR để quản lý các sản phẩm tốt hơn...</p>
+</li>
+<li>
+<p>Các bạn có thể đọc tại <a href="https://caodang.fpt.edu.vn/tin-tuc-poly/can-tho-tin-sinh-vien/du-an-phan-mem-quan-ly-ban-phu-kien-thiet-bi-di-dong-cua-sinh-vien-fpoly-can-tho-lot-mat-xanh-cua-giang-vien.html?fbclid=IwAR0yKQu_L3DhIKrfLxdKZRbfZB9zGWySvjc3_qxPa2HS3_qXcoPjM98uUnk" target="_blank" rel="noopener noreferrer">đây</a></p>
+</li>
 </ul>
 <h1 id="gioi-thieu-ve-minh" tabindex="-1"><a class="header-anchor" href="#gioi-thieu-ve-minh" aria-hidden="true">#</a> Giới thiệu về mình</h1>
 <p>Mình là <strong>Trần Hữu Đang</strong> các bạn có thể gọi mình là Davis</p>

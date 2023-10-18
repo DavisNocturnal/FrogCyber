@@ -13,7 +13,7 @@ tags:
   - Algorithms
   - DSA
 --- -->
-<p>Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.</p>
+<h1 id="tong-quan-ve-dsa" tabindex="-1"><a class="header-anchor" href="#tong-quan-ve-dsa" aria-hidden="true">#</a> Tổng quan về DSA</h1>
 <!-- more -->
 <hr>
 <p>Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.</p>
@@ -26,10 +26,30 @@ tags:
 <li>Mình sẽ viết chủ yếu về C hoặc C++ nên bạn cần có kiến thức về ngôn ngữ này nhá</li>
 </ul>
 <p>Tham khảo bảng sau đây</p>
-<p>| Điều kiện tiên quyết     | Mức độ      | Kiến thức cần có      | Tham khảo      |
-| ------------------------ | --------------------------- | ------------| ----------------------| ---------------|
-| lập trình căn bản | Xử lý các vấn đề cơ bản | Thao tác được với các kiểu dữ liệu và toán tử, vòng lặp, rẽ nhánh |<a href="">link</a>|
-| Lập trình C/C++ | Hiểu được câu lệnh | Mảng, Chuỗi, Hàm |<a href="">link</a>|</p>
+<table>
+<thead>
+<tr>
+<th>Điều kiện tiên quyết</th>
+<th>Mức độ</th>
+<th>Kiến thức cần có</th>
+<th>Tham khảo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lập trình căn bản</td>
+<td>Xử lý các vấn đề cơ bản</td>
+<td>Thao tác được với các kiểu dữ liệu và toán tử, vòng lặp, rẽ nhánh</td>
+<td><a href="">link</a></td>
+</tr>
+<tr>
+<td>Lập trình C/C++</td>
+<td>Hiểu được câu lệnh</td>
+<td>Mảng, Chuỗi, Hàm</td>
+<td><a href="">link</a></td>
+</tr>
+</tbody>
+</table>
 <p>Trước tiên thì ta sẽ tìm hiểu về thuật ngữ DSA trước nhá</p>
 <h2 id="dsa-la-gi" tabindex="-1"><a class="header-anchor" href="#dsa-la-gi" aria-hidden="true">#</a> DSA là gì?</h2>
 <p>DSA được định nghĩa là sự kết hợp của hai chủ đề riêng biệt nhưng có liên quan đến nhau - Cấu trúc dữ liệu và Thuật toán. DSA là một trong những kỹ năng quan trọng nhất mà mọi sinh viên khoa học máy tính phải có. Người ta thường thấy rằng những người có kiến thức tốt về các công nghệ này là những lập trình viên giỏi hơn những người khác và do đó, bẻ khóa các cuộc phỏng vấn của hầu hết mọi gã khổng lồ công nghệ.</p>

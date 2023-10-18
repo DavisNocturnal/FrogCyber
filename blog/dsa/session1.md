@@ -14,8 +14,7 @@ tags:
   - DSA
 --- -->
 
-Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.
-
+# Tổng quan về DSA
 <!-- more -->
 
 ---
@@ -33,7 +32,7 @@ Nhưng trước tiên mình cần nói một số điều:
 Tham khảo bảng sau đây
 
 | Điều kiện tiên quyết     | Mức độ      | Kiến thức cần có      | Tham khảo      |
-| ------------------------ | --------------------------- | ------------| ----------------------| ---------------|
+| ------------------------ | ------------ | --------------------| ----------------------| 
 | lập trình căn bản | Xử lý các vấn đề cơ bản | Thao tác được với các kiểu dữ liệu và toán tử, vòng lặp, rẽ nhánh |[link]()| 
 | Lập trình C/C++ | Hiểu được câu lệnh | Mảng, Chuỗi, Hàm |[link]()| 
 
