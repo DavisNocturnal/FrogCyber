@@ -264,188 +264,6 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
-    "path": "/github/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Setup môi trường",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Git là gì?",
-        "slug": "git-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "GitHub là gì?",
-        "slug": "github-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cài đặt Git và Tạo tài khoản GitHub",
-        "slug": "cai-đat-git-va-tao-tai-khoan-github",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo tài khoản GitHub",
-        "slug": "tao-tai-khoan-github",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Đăng nhập vào Git",
-        "slug": "đang-nhap-vao-git",
-        "children": []
-      }
-    ],
-    "path": "/github/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Đẩy code lên GitHub",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Quy trình đẩy code",
-        "slug": "quy-trinh-đay-code",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo Repository tại GitHub.com",
-        "slug": "tao-repository-tai-github-com",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Clone Repo về máy tính của bạn",
-        "slug": "clone-repo-ve-may-tinh-cua-ban",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Lấy lại toàn bộ code từ repo về máy tính",
-        "slug": "lay-lai-toan-bo-code-tu-repo-ve-may-tinh",
-        "children": []
-      }
-    ],
-    "path": "/github/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3 Undo khi gặp một commit sai",
-    "headers": [
-      {
-        "level": 3,
-        "title": "Ví dụ",
-        "slug": "vi-du",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.1 Git Reset",
-        "slug": "_3-1-git-reset",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2 Git Revert",
-        "slug": "_3-2-git-revert",
-        "children": []
-      }
-    ],
-    "path": "/github/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4 Làm việc nhóm",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Quy trình làm việc",
-        "slug": "quy-trinh-lam-viec",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thêm thành viên vào Repository",
-        "slug": "them-thanh-vien-vao-repository",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xác nhận tham gia",
-        "slug": "xac-nhan-tham-gia",
-        "children": []
-      }
-    ],
-    "path": "/github/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Làm việc với nhánh",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Tạo nhánh",
-        "slug": "tao-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Di chuyển qua lại giữa các nhánh",
-        "slug": "di-chuyen-qua-lai-giua-cac-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Gộp nhánh",
-        "slug": "gop-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xóa nhánh",
-        "slug": "xoa-nhanh",
-        "children": []
-      }
-    ],
-    "path": "/github/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Thao tác bằng GitHub Desktop",
-    "headers": [],
-    "path": "/github/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7",
-    "headers": [],
-    "path": "/github/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8",
-    "headers": [],
-    "path": "/github/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
     "path": "/java-core/",
     "pathLocale": "/",
     "extraFields": []
@@ -1344,6 +1162,265 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
+    "path": "/github/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Setup môi trường",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Git là gì?",
+        "slug": "git-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "GitHub là gì?",
+        "slug": "github-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cài đặt Git và Tạo tài khoản GitHub",
+        "slug": "cai-đat-git-va-tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo tài khoản GitHub",
+        "slug": "tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Đăng nhập vào Git",
+        "slug": "đang-nhap-vao-git",
+        "children": []
+      }
+    ],
+    "path": "/github/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Đẩy code lên GitHub",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Quy trình đẩy code",
+        "slug": "quy-trinh-đay-code",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo Repository tại GitHub.com",
+        "slug": "tao-repository-tai-github-com",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Clone Repo về máy tính của bạn",
+        "slug": "clone-repo-ve-may-tinh-cua-ban",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Lấy lại toàn bộ code từ repo về máy tính",
+        "slug": "lay-lai-toan-bo-code-tu-repo-ve-may-tinh",
+        "children": []
+      }
+    ],
+    "path": "/github/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3 Undo khi gặp một commit sai",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Ví dụ",
+        "slug": "vi-du",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.1 Git Reset",
+        "slug": "_3-1-git-reset",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2 Git Revert",
+        "slug": "_3-2-git-revert",
+        "children": []
+      }
+    ],
+    "path": "/github/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4 Làm việc nhóm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Quy trình làm việc",
+        "slug": "quy-trinh-lam-viec",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thêm thành viên vào Repository",
+        "slug": "them-thanh-vien-vao-repository",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xác nhận tham gia",
+        "slug": "xac-nhan-tham-gia",
+        "children": []
+      }
+    ],
+    "path": "/github/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Làm việc với nhánh",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tạo nhánh",
+        "slug": "tao-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Di chuyển qua lại giữa các nhánh",
+        "slug": "di-chuyen-qua-lai-giua-cac-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Gộp nhánh",
+        "slug": "gop-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xóa nhánh",
+        "slug": "xoa-nhanh",
+        "children": []
+      }
+    ],
+    "path": "/github/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Thao tác bằng GitHub Desktop",
+    "headers": [],
+    "path": "/github/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7",
+    "headers": [],
+    "path": "/github/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8",
+    "headers": [],
+    "path": "/github/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/php-core/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Giới thiệu về PHP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tìm hiểu về Request và Response",
+        "slug": "tim-hieu-ve-request-va-response",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
+    "headers": [],
+    "path": "/php-core/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Hàm và HTML",
+    "headers": [],
+    "path": "/php-core/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Forms",
+    "headers": [],
+    "path": "/php-core/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. File",
+    "headers": [],
+    "path": "/php-core/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. MySQLi căn bản",
+    "headers": [],
+    "path": "/php-core/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. MySQLi nâng cao",
+    "headers": [],
+    "path": "/php-core/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Session, Cookie và PDO",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Đề bài",
+        "slug": "_1-đe-bai",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
     "path": "/nodejs/",
     "pathLocale": "/",
     "extraFields": []
@@ -1709,83 +1786,6 @@ export const searchIndex = [
     "title": "Bài 8. Làm việc với MongoDB",
     "headers": [],
     "path": "/nodejs/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/php-core/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Giới thiệu về PHP",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Tìm hiểu về Request và Response",
-        "slug": "tim-hieu-ve-request-va-response",
-        "children": []
-      }
-    ],
-    "path": "/php-core/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
-    "headers": [],
-    "path": "/php-core/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Hàm và HTML",
-    "headers": [],
-    "path": "/php-core/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Forms",
-    "headers": [],
-    "path": "/php-core/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. File",
-    "headers": [],
-    "path": "/php-core/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. MySQLi căn bản",
-    "headers": [],
-    "path": "/php-core/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7. MySQLi nâng cao",
-    "headers": [],
-    "path": "/php-core/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8. Session, Cookie và PDO",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Đề bài",
-        "slug": "_1-đe-bai",
-        "children": []
-      }
-    ],
-    "path": "/php-core/session8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2178,6 +2178,167 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
+    "title": "Xây dựng Json Web Token trong NodeJS",
+    "subtitle": "Phân quyền và đăng nhập trong NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Xây dựng CSDL",
+        "slug": "xay-dung-csdl",
+        "children": [
+          {
+            "level": 3,
+            "title": "Mã nguồn My-SQL",
+            "slug": "ma-nguon-my-sql",
+            "children": [
+              {
+                "level": 4,
+                "title": "Account",
+                "slug": "account",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Roles",
+                "slug": "roles",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "UserRole",
+                "slug": "userrole",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tạo dự án",
+        "slug": "tao-du-an",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo dự án với Express",
+            "slug": "tao-du-an-voi-express",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cài đặt thư viện cần thiết",
+            "slug": "cai-đat-thu-vien-can-thiet",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Lập trình back-end",
+        "slug": "lap-trinh-back-end",
+        "children": [
+          {
+            "level": 3,
+            "title": "Khởi tạo SECRET KEY",
+            "slug": "khoi-tao-secret-key",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Xây dựng JWT Model",
+            "slug": "xay-dung-jwt-model",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Xây dựng User Model",
+            "slug": "xay-dung-user-model",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Xây dựng User Controller",
+            "slug": "xay-dung-user-controller",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Xây dựng Router Login",
+            "slug": "xay-dung-router-login",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Lập trình Front-end",
+        "slug": "lap-trinh-front-end",
+        "children": [
+          {
+            "level": 3,
+            "title": "Xây dựng form đăng nhập",
+            "slug": "xay-dung-form-đang-nhap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Xây dựng hàm call API bằng JQuery",
+            "slug": "xay-dung-ham-call-api-bang-jquery",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Chạy ứng dụng",
+        "slug": "chay-ung-dung",
+        "children": [
+          {
+            "level": 3,
+            "title": "Chạy ứng dụng phía back-end",
+            "slug": "chay-ung-dung-phia-back-end",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Chú thích",
+        "slug": "chu-thich",
+        "children": [
+          {
+            "level": 4,
+            "title": "SEAN APP",
+            "slug": "sean-app",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Token",
+            "slug": "token",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "T-SQL",
+            "slug": "t-sql",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Front-end",
+            "slug": "front-end",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/post/backend/jwt-nodejs/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
     "title": "Tìm hiểu về Session, Cookie trong Xác thực người dùng",
     "subtitle": "Session, Cookie là gì?",
     "headers": [
@@ -2324,3 +2485,16 @@ export const searchIndex = [
     "layout": "HomePage"
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

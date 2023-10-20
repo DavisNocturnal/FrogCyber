@@ -6,7 +6,7 @@ author: Trần Hữu Đang
 date: 2023-10-20
 useHeaderImage: false
 headerImage: https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/1.png?raw=true
-headerMask: rgba(70, 112, 80, 0.5)
+headerMask:
 permalinkPattern: /post/algorithm/:slug/
 tags:
   - Algorithm
