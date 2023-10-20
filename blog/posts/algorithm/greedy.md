@@ -3,9 +3,9 @@ layout: Post
 title: Tìm hiểu về giải thuật tham lam
 subtitle: Cấu trúc dữ liệu và giải thuật
 author: Trần Hữu Đang
-date: 2023-09-03
+date: 2023-10-20
 useHeaderImage: false
-headerImage: https://github.com/dangtranhuu/images/blob/main/angurvad/backend/session-cookie/banner.png?raw=true
+headerImage: https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/1.png?raw=true
 headerMask: rgba(70, 112, 80, 0.5)
 permalinkPattern: /post/algorithm/:slug/
 tags:
@@ -21,7 +21,19 @@ Thuật toán tham lam được ứng dụng nhiều rất vào các bài toán 
 Thuật toán tham lam là gì, nó có tham lam thật không ???
 
 
-![](https://github.com/dangtranhuu/images/blob/main/angurvad/backend/session-cookie/banner.png?raw=true)
+![](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/1.png?raw=true)
+
+:::details <b>Nội dung chính</b>
+
+![Nguyên lý](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/2.png?raw=true)
+![Thành phần](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/3.png?raw=true)
+![Tính chất lựa ](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/4.png?raw=truee)
+![Ưu điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/5.png?raw=true)
+![Nhược điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/6.png?raw=true)
+![Bài tập](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/7.png?raw=true)
+![Bài giải](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/8.png?raw=true)
+![Lời cảm ơn](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/greedy/9.png?raw=true)
+:::
 
 ## Giới thiệu
 
@@ -235,13 +247,13 @@ Bài toán như sau:
 
 Giả sử bạn có $n$ file trên đĩa từ trong đó file thứ $i$ có dung lượng $L[i]$.
 
-Gọi $π$ là một hoán vị của ${1,2,…,n}$ tương ứng với một cách lưu trữ file theo thứ tự $π(1),π(2),…,π(n)$.
+Gọi $\pi$ là một hoán vị của ${1,2,…,n}$ tương ứng với một cách lưu trữ file theo thứ tự $\pi(1),\pi(2),…,\pi(n)$.
 
-Để truy cập file $π(i)$, bạn phải duyệt qua tất cả các file $π(1),π(2),…,π(i−1)$. 
+Để truy cập file $\pi(i)$, bạn phải duyệt qua tất cả các file $\pi(1),\pi(2),…,\pi(i−1)$. 
 
-Do đó chi phí để truy cập file $π(i)$ là:
+Do đó chi phí để truy cập file $\pi(i)$ là:
 $$
-C(π(i))=\sum_{\substack{i=1}}^kL[π(k)]
+C(\pi(i))=\sum_{\substack{i=1}}^kL[\pi(k)]
 $$
 Tìm cách lưu trữ file sao cho việc truy xuất được hiệu quả nhất, biết rằng mỗi file được truy cập đúng 1 lần.
 
@@ -265,29 +277,29 @@ $S\larr {1,2,…,n}$<br/>
 choose $s∈S$ with minimum $L[s]$<br/>
 write $s$ to the tape<br/>
 $S\larr S ∖{ s }$<br/>
-<b>until</b> $S=∅$
+<b>until</b> $S=\empty$
 :::
 
 #### Tính đúng đắn của thuật toán
 
 Ta sẽ chứng minh cách lưu file theo thứ tự từ nhỏ đến lớn có chi phí nhỏ nhất. 
 
-Giả sử tồn tại một cách lưu trữ tối ưu $π$ và chỉ số $i$ sao cho $L[π(i)]>L[π(i+1)]$. 
+Giả sử tồn tại một cách lưu trữ tối ưu $\pi$ và chỉ số $i$ sao cho $L[\pi(i)]>L[\pi(i+1)]$. 
 
-Gọi $costπ$ là chi phí truy nhập của π. 
+Gọi $cost\pi$ là chi phí truy nhập của \pi. 
 
 Theo định nghĩa, ta có: 
 $$
-cost_π=\sum_{\substack{i=1}}^nC(π(i)) 
+cost_\pi=\sum_{\substack{i=1}}^nC(\pi(i)) 
 $$
 
-Gọi $π′$ là hoán vị thu được từ $π$ bằng cách đổi chỗ $π(i)]$ và $π(i+1)$. Ta có:
+Gọi $\pi\prime$ là hoán vị thu được từ $\pi$ bằng cách đổi chỗ $\pi(i)]$ và $\pi(i+1)$. Ta có:
 
 $$
-cost_π−cost_π′=C(π(i))+C(π(i+1))−C(π′(i))−C(π′(i+1))=L[π(i)]−L[π(i+1)]<0
+cost_\pi−cost_\pi\prime=C(\pi(i))+C(\pi(i+1))−C(\pi\prime(i))−C(\pi\prime(i+1))=L[\pi(i)]−L[\pi(i+1)]<0
 $$
 
-Do đó, $cost_π>$ $cost_π$ $_′$, trái với giả thiết $π(i)$ là cách lưu trữ tối ưu.
+Do đó, $cost_\pi> cost_\pi\prime$, trái với giả thiết $\pi(i)$ là cách lưu trữ tối ưu.
 
 #### Phân tích thời gian
 

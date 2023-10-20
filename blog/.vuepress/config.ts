@@ -17,7 +17,7 @@ export default defineUserConfig({
 				rel: "icon",
 				type: "image/png",
 				sizes: "16x16",
-				href: `https://github.com/dangtranhuu/images/blob/main/frog/frog_emojis/png/svgtopng/U1f9b8-frogSuperman.png?raw=true`
+				href: `https://github.com/dangtranhuu/images/blob/main/frog/logo/Picsart_23-10-19_13-24-48-304.png?raw=true`
 			}
 		],
 		[
@@ -26,10 +26,10 @@ export default defineUserConfig({
 				rel: "icon",
 				type: "image/png",
 				sizes: "32x32",
-				href: `https://github.com/dangtranhuu/images/blob/main/frog/frog_emojis/png/svgtopng/U1f9b8-frogSuperman.png?raw=true`
+				href: `https://github.com/dangtranhuu/images/blob/main/frog/logo/Picsart_23-10-19_13-24-48-304.png?raw=true`
 			}
 		],
-		["meta", { name: "application-name", content: "TheanIshtar" }],
+		["meta", { name: "application-name", content: "FrogCyber" }],
 		// ["meta", { property: "og:image", content: "https://github.com/dangtranhuu/images/blob/main/angurvad/main.png?raw=true" }],
 		["meta", { name: "apple-mobile-web-app-title", content: "Thean" }],
 		[
@@ -51,12 +51,12 @@ export default defineUserConfig({
 		docsDir: "blog",
 		docsBranch: "main",
 		navbarTitle: "FrogCyber",
-		hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
-		searchText: "Tìm kiếm",
+		hitokoto: "https://v1.hitokoto.vn?c=i", // enable hitokoto (一言) or not?
+		searchText: " ",
 		// personal information
 		personalInfo: {
 			name: "Lập Trình Cùng Ếch",
-			avatar: "https://github.com/dangtranhuu/images/blob/main/frog/background.png?raw=true",
+			avatar: "https://github.com/dangtranhuu/images/blob/main/frog/logo/Picsart_23-10-19_13-24-48-304.png?raw=true",
 			// description: "いつか、私がヒトじゃなくなっても",
 			description: "Môi trường học tập dành cho sinh viên CNTT",
 			sns: {
@@ -330,7 +330,59 @@ export default defineUserConfig({
 						icon: "vi-file-type-git"
 					},
 				]
-			}
+			},
+			{
+				text: "Tài nguyên",
+				icon: "si-progress",
+				children: [
+					{
+						text: "MS Office",
+						// link: "/docs/intro.md",
+						icon: "vi-file-type-glitter",
+						children: [
+							{
+								text: "MS Ofice 2026",
+								link: "/docs/intro.md",
+								icon: "vi-folder-type-windows"
+							},
+						]
+					},
+					{
+						text: "Adobe",
+						// link: "/docs/intro.md",
+						icon: "vi-file-type-glitter",
+						children: [
+							{
+								text: "Photoshop",
+								link: "https://drive.google.com/file/d/1aZqd2Mxjru8u5tj5hdhjDMIpfIHnUFFP/view?usp=share_link",
+								icon: "si-adobephotoshop"
+							},
+							{
+								text: "Illustrator",
+								link: "https://drive.google.com/file/d/1OgZ8TuYhH7IY-d6TfWEE0G0svOKDOIVk/view?usp=share_link",
+								icon: "si-adobeillustrator"
+							},
+							{
+								text: "Aftereffects",
+								link: "https://drive.google.com/file/d/1e5ZzCP5qLkJWG9_a7pdexaPDSUHqSjC7/view?usp=share_link",
+								icon: "si-adobeaftereffects"
+							},
+						]
+					},
+					{
+						text: "TechSmith",
+						// link: "/docs/intro.md",
+						icon: "vi-file-type-glitter",
+						children: [
+							{
+								text: "Camtasia",
+								link: "https://drive.google.com/file/d/1VbcUkD0Uyu4zqR9FN_39GFWQX_vw1TqR/view?usp=share_link",
+								icon: "bi-record-btn"
+							},
+						]
+					},
+				]
+			},
 		],
 
 		footer: `

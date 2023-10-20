@@ -40,7 +40,14 @@ import {
 	ViFileTypeAngular,
 	FcTreeStructure,
 	ViFileTypeMaven,
-	ViFileTypeStoryboard
+	ViFileTypeStoryboard,
+	ViFileTypeGlitter,
+	ViFolderTypeWindows,
+	SiProgress,
+	SiAdobephotoshop,
+	SiAdobeillustrator,
+	SiAdobeaftereffects,
+	BiRecordBtn
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -84,7 +91,14 @@ addIcons(
 	ViFileTypeAngular,
 	FcTreeStructure,
 	ViFileTypeMaven,
-	ViFileTypeStoryboard
+	ViFileTypeStoryboard,
+	ViFileTypeGlitter,
+	ViFolderTypeWindows,
+	SiProgress,
+	SiAdobephotoshop,
+	SiAdobeillustrator,
+	SiAdobeaftereffects,
+	BiRecordBtn
 );
 
 export default defineClientConfig({});
