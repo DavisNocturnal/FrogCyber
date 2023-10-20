@@ -7,6 +7,16 @@
 <li>Bài viết hôm nay chỉ đề cập đến JWT trong NodeJS nên phải có kiến thức về cả <a href="">JWT</a> và <RouterLink to="/nodejs/">NodeJS</RouterLink> nhé</li>
 <li>Bài viết này được mình lấy trực tiếp từ dự án đã xây dựng nên có gì chưa hiểu bạn hãy xem mã nguồn của dự án nhé</li>
 </ul>
+<p>Okay bắt đầu thoy !!!</p>
+<details class="custom-container details"><summary><b>Nội dung chính</b></summary>
+<p><img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/2.png?raw=true" alt="Nguyên lý">
+<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/3.png?raw=true" alt="Thành phần">
+<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/4.png?raw=truee" alt="Tính chất lựa ">
+<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/5.png?raw=true" alt="Ưu điểm">
+<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/6.png?raw=true" alt="Nhược điểm">
+<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/7.png?raw=true" alt="Bài tập">
+<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/8.png?raw=true" alt="Bài giải"></p>
+</details>
 <h2 id="xay-dung-csdl" tabindex="-1"><a class="header-anchor" href="#xay-dung-csdl" aria-hidden="true">#</a> Xây dựng CSDL</h2>
 <p><img src="https://github.com/dangtranhuu/images/raw/main/rainbow-flix/djagram-rolesuser.png?raw=true" alt="Diagram DB"></p>
 <p>Như bạn thấy ở hình trên ta cần 3 Table chính liên quan đến người dùng gồm: <strong>User</strong> hay <strong>Account</strong>, <strong>Roles</strong> và <strong>UserRole</strong>.</p>
@@ -62,7 +72,45 @@
 <span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">'hanltn'</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
 <span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">,</span> <span class="token string">'nganntd'</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
 <span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'phuocnhh'</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre></div><h2 id="tao-du-an" tabindex="-1"><a class="header-anchor" href="#tao-du-an" aria-hidden="true">#</a> Tạo dự án</h2>
+</code></pre></div><p>Ta có thể lấy ra các thông tin và quyền của một <strong>User</strong> ứng với <code v-pre>email</code> và <code v-pre>password</code> bằng câu truy vấn sau:</p>
+<div class="language-sql ext-sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> 
+	u<span class="token punctuation">.</span>fullname<span class="token punctuation">,</span> u<span class="token punctuation">.</span>email<span class="token punctuation">,</span> GROUP_CONCAT<span class="token punctuation">(</span>r<span class="token punctuation">.</span>name<span class="token punctuation">)</span> <span class="token keyword">AS</span> roles
+<span class="token keyword">FROM</span> roles r
+<span class="token keyword">INNER</span> <span class="token keyword">JOIN</span> 
+	userrole ur <span class="token keyword">ON</span> r<span class="token punctuation">.</span>id <span class="token operator">=</span> ur<span class="token punctuation">.</span>roleid
+<span class="token keyword">INNER</span> <span class="token keyword">JOIN</span> 
+	account u <span class="token keyword">ON</span> ur<span class="token punctuation">.</span>username <span class="token operator">like</span> u<span class="token punctuation">.</span>username
+<span class="token keyword">WHERE</span> 
+	u<span class="token punctuation">.</span>email <span class="token operator">like</span> <span class="token string">'${email}'</span> <span class="token operator">and</span> u<span class="token punctuation">.</span>password <span class="token operator">like</span> <span class="token string">'${password}'</span> 
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> u<span class="token punctuation">.</span>email<span class="token punctuation">;</span>
+</code></pre></div><p>Kết quả:</p>
+<table>
+<thead>
+<tr>
+<th>Fullname</th>
+<th>Email</th>
+<th>Roles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trần Hữu Đang</td>
+<td>dangtt135@gmail.com</td>
+<td>ROLE_ADMIN, ROLE_MANAGER</td>
+</tr>
+<tr>
+<td>Frog Dev</td>
+<td>frogdev@gmail.com</td>
+<td>ROLE_USER</td>
+</tr>
+<tr>
+<td>Nguyễn Nhân Viên</td>
+<td>viennn@gmail.com</td>
+<td>ROLE_STAFF</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tao-du-an" tabindex="-1"><a class="header-anchor" href="#tao-du-an" aria-hidden="true">#</a> Tạo dự án</h2>
 <h3 id="tao-du-an-voi-express" tabindex="-1"><a class="header-anchor" href="#tao-du-an-voi-express" aria-hidden="true">#</a> Tạo dự án với Express</h3>
 <div class="language-cmd ext-cmd"><pre v-pre class="language-cmd"><code>npm install express --save
 npm install express

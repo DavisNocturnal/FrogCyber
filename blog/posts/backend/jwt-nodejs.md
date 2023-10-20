@@ -26,6 +26,19 @@ Mình có một số lưu ý sau đây:
 - Bài viết hôm nay chỉ đề cập đến JWT trong NodeJS nên phải có kiến thức về cả [JWT]() và [NodeJS](/nodejs/) nhé 
 - Bài viết này được mình lấy trực tiếp từ dự án đã xây dựng nên có gì chưa hiểu bạn hãy xem mã nguồn của dự án nhé
 
+Okay bắt đầu thoy !!! 
+
+:::details <b>Nội dung chính</b>
+
+![Nguyên lý](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/2.png?raw=true)
+![Thành phần](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/3.png?raw=true)
+![Tính chất lựa ](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/4.png?raw=truee)
+![Ưu điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/5.png?raw=true)
+![Nhược điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/6.png?raw=true)
+![Bài tập](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/7.png?raw=true)
+![Bài giải](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/8.png?raw=true)
+:::
+
 ## Xây dựng CSDL
 
 ![Diagram DB](https://github.com/dangtranhuu/images/raw/main/rainbow-flix/djagram-rolesuser.png?raw=true)
@@ -97,6 +110,30 @@ INSERT INTO `userrole` (`id`, `username`, `roleid`) VALUES
 (6, 'nganntd', 3),
 (7, 'phuocnhh', 3);
 ```
+
+Ta có thể lấy ra các thông tin và quyền của một **User** ứng với `email` và `password` bằng câu truy vấn sau:
+```sql
+SELECT 
+	u.fullname, u.email, GROUP_CONCAT(r.name) AS roles
+FROM roles r
+INNER JOIN 
+	userrole ur ON r.id = ur.roleid
+INNER JOIN 
+	account u ON ur.username like u.username
+WHERE 
+	u.email like '${email}' and u.password like '${password}' 
+GROUP BY u.email;
+```
+
+Kết quả:
+
+|Fullname|Email|Roles|
+|--------|-----|-----|
+|Trần Hữu Đang|dangtt135@gmail.com|ROLE_ADMIN, ROLE_MANAGER|
+|Frog Dev|frogdev@gmail.com|ROLE_USER|
+|Nguyễn Nhân Viên|viennn@gmail.com|ROLE_STAFF|
+
+
 
 ## Tạo dự án
 
