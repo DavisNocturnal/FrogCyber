@@ -296,7 +296,7 @@ export default defineUserConfig({
 							},
 							{
 								text: "Spring Boot",
-								link: "/docs/intro.md",
+								link: "/spring-boot/",
 								icon: "co-spring"
 							},
 							{
@@ -353,19 +353,24 @@ export default defineUserConfig({
 						icon: "vi-file-type-glitter",
 						children: [
 							{
-								text: "Photoshop",
+								text: "Photoshop 2023",
 								link: "https://drive.google.com/file/d/1aZqd2Mxjru8u5tj5hdhjDMIpfIHnUFFP/view?usp=share_link",
 								icon: "si-adobephotoshop"
 							},
 							{
-								text: "Illustrator",
+								text: "Illustrator 2023",
 								link: "https://drive.google.com/file/d/1OgZ8TuYhH7IY-d6TfWEE0G0svOKDOIVk/view?usp=share_link",
 								icon: "si-adobeillustrator"
 							},
 							{
-								text: "Aftereffects",
+								text: "Aftereffects 2023",
 								link: "https://drive.google.com/file/d/1e5ZzCP5qLkJWG9_a7pdexaPDSUHqSjC7/view?usp=share_link",
 								icon: "si-adobeaftereffects"
+							},
+							{
+								text: "Premiere 2023",
+								link: "https://drive.google.com/file/d/1NwcJDIDDAOgHz5DlDc22Og6H12Zsit-9/view?usp=drive_link",
+								icon: "si-adobepremierepro"
 							},
 						]
 					},

@@ -92,8 +92,20 @@ export const en: SidebarConfig = {
 		// "/dsa/session6.md",
 		// "/dsa/session7.md",
 		// "/dsa/session8.md",
-	]
+	],
 
+
+	"/spring-boot/": [
+		"/spring-boot/readme.md",
+		"/spring-boot/session1.md",
+		"/spring-boot/session2.md",
+		"/spring-boot/session3.md",
+		"/spring-boot/session4.md",
+		"/spring-boot/session5.md",
+		"/spring-boot/session6.md",
+		"/spring-boot/session7.md",
+		"/spring-boot/session8.md",
+	]
 };
 
 
