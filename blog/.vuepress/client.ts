@@ -48,7 +48,10 @@ import {
 	SiAdobeillustrator,
 	SiAdobeaftereffects,
 	BiRecordBtn,
-	SiAdobepremierepro
+	SiAdobepremierepro,
+	SiAdobelightroom,
+	SiAdobeaudition,
+	CoAdobe
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -100,7 +103,10 @@ addIcons(
 	SiAdobeillustrator,
 	SiAdobeaftereffects,
 	BiRecordBtn,
-	SiAdobepremierepro
+	SiAdobepremierepro,
+	SiAdobelightroom,
+	SiAdobeaudition,
+	CoAdobe
 );
 
 export default defineClientConfig({});

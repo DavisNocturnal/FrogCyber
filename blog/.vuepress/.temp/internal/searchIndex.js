@@ -1,5 +1,107 @@
 export const searchIndex = [
   {
+    "title": "Giới thiệu về dự án",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Mục đích ra đời",
+        "slug": "muc-đich-ra-đoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ý tưởng và tên gọi",
+        "slug": "y-tuong-va-ten-goi",
+        "children": [
+          {
+            "level": 3,
+            "title": "Về ý tưởng",
+            "slug": "ve-y-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Về tên gọi",
+            "slug": "ve-ten-goi",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Các tính năng",
+        "slug": "cac-tinh-nang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Công nghệ sử dụng",
+        "slug": "cong-nghe-su-dung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phát triển dài hạn",
+        "slug": "phat-trien-dai-han",
+        "children": []
+      }
+    ],
+    "path": "/about/project.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Khai vị",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Một số bài báo về mình",
+        "slug": "mot-so-bai-bao-ve-minh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Front-end Framework",
+            "slug": "front-end-framework",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Lập trình Java 5",
+            "slug": "lap-trinh-java-5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Dự án 1",
+            "slug": "du-an-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Đôi nét về mình ?",
+        "slug": "đoi-net-ve-minh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Dự định trong trương lai?",
+        "slug": "du-đinh-trong-truong-lai",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Liên hệ với mình như thế nào?",
+        "slug": "lien-he-voi-minh-nhu-the-nao",
+        "children": []
+      }
+    ],
+    "path": "/about/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Lời nói đầu",
     "headers": [],
     "path": "/java-core/",
@@ -689,6 +791,166 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
+    "path": "/dsa/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tổng quan về DSA",
+    "headers": [
+      {
+        "level": 2,
+        "title": "DSA là gì?",
+        "slug": "dsa-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cấu trúc dữ liệu là gì?",
+        "slug": "cau-truc-du-lieu-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán là gì?",
+        "slug": "thuat-toan-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Làm thế nào để bắt đầu học DSA?",
+        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Tìm hiểu về Sự phức tạp",
+            "slug": "_1-tim-hieu-ve-su-phuc-tap",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Danh sách đặc",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách đặc là gì?",
+        "slug": "danh-sach-đac-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mảng",
+        "slug": "mang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Chuỗi",
+        "slug": "chuoi",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Danh sách liên kết",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách liên kết là gì?",
+        "slug": "danh-sach-lien-ket-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
+        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các loại danh sách liên kết:",
+        "slug": "cac-loai-danh-sach-lien-ket",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Danh sách liên kết đơn:",
+            "slug": "_1-danh-sach-lien-ket-đon",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Danh sách liên kết kép:",
+            "slug": "_2-danh-sach-lien-ket-kep",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Danh mục liên kết thông tư:",
+            "slug": "_3-danh-muc-lien-ket-thong-tu",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Hoạt động trên danh sách liên kết",
+        "slug": "hoat-đong-tren-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ưu điểm của danh sách liên kết",
+        "slug": "uu-điem-cua-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hành",
+        "slug": "thuc-hanh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng linkedList.h",
+            "slug": "su-dung-linkedlist-h",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng sentenceList.h",
+            "slug": "su-dung-sentencelist-h",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Kết thúc:",
+        "slug": "ket-thuc",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
     "path": "/github/",
     "pathLocale": "/",
     "extraFields": []
@@ -865,268 +1127,6 @@ export const searchIndex = [
     "title": "Bài 8",
     "headers": [],
     "path": "/github/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Giới thiệu về dự án",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Mục đích ra đời",
-        "slug": "muc-đich-ra-đoi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Ý tưởng và tên gọi",
-        "slug": "y-tuong-va-ten-goi",
-        "children": [
-          {
-            "level": 3,
-            "title": "Về ý tưởng",
-            "slug": "ve-y-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Về tên gọi",
-            "slug": "ve-ten-goi",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Các tính năng",
-        "slug": "cac-tinh-nang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Công nghệ sử dụng",
-        "slug": "cong-nghe-su-dung",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Phát triển dài hạn",
-        "slug": "phat-trien-dai-han",
-        "children": []
-      }
-    ],
-    "path": "/about/project.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Khai vị",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Một số bài báo về mình",
-        "slug": "mot-so-bai-bao-ve-minh",
-        "children": [
-          {
-            "level": 3,
-            "title": "Front-end Framework",
-            "slug": "front-end-framework",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Lập trình Java 5",
-            "slug": "lap-trinh-java-5",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Dự án 1",
-            "slug": "du-an-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Đôi nét về mình ?",
-        "slug": "đoi-net-ve-minh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Dự định trong trương lai?",
-        "slug": "du-đinh-trong-truong-lai",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Liên hệ với mình như thế nào?",
-        "slug": "lien-he-voi-minh-nhu-the-nao",
-        "children": []
-      }
-    ],
-    "path": "/about/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/dsa/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tổng quan về DSA",
-    "headers": [
-      {
-        "level": 2,
-        "title": "DSA là gì?",
-        "slug": "dsa-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cấu trúc dữ liệu là gì?",
-        "slug": "cau-truc-du-lieu-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán là gì?",
-        "slug": "thuat-toan-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Làm thế nào để bắt đầu học DSA?",
-        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Tìm hiểu về Sự phức tạp",
-            "slug": "_1-tim-hieu-ve-su-phuc-tap",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Tổng kết",
-        "slug": "tong-ket",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Danh sách đặc",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Danh sách đặc là gì?",
-        "slug": "danh-sach-đac-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mảng",
-        "slug": "mang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Chuỗi",
-        "slug": "chuoi",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Danh sách liên kết",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Danh sách liên kết là gì?",
-        "slug": "danh-sach-lien-ket-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
-        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Các loại danh sách liên kết:",
-        "slug": "cac-loai-danh-sach-lien-ket",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Danh sách liên kết đơn:",
-            "slug": "_1-danh-sach-lien-ket-đon",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Danh sách liên kết kép:",
-            "slug": "_2-danh-sach-lien-ket-kep",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Danh mục liên kết thông tư:",
-            "slug": "_3-danh-muc-lien-ket-thong-tu",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Hoạt động trên danh sách liên kết",
-        "slug": "hoat-đong-tren-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Ưu điểm của danh sách liên kết",
-        "slug": "uu-điem-cua-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thực hành",
-        "slug": "thuc-hanh",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sử dụng linkedList.h",
-            "slug": "su-dung-linkedlist-h",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sử dụng sentenceList.h",
-            "slug": "su-dung-sentencelist-h",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Kết thúc:",
-        "slug": "ket-thuc",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session3.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1504,83 +1504,6 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
-    "path": "/php-core/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Giới thiệu về PHP",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Tìm hiểu về Request và Response",
-        "slug": "tim-hieu-ve-request-va-response",
-        "children": []
-      }
-    ],
-    "path": "/php-core/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
-    "headers": [],
-    "path": "/php-core/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Hàm và HTML",
-    "headers": [],
-    "path": "/php-core/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Forms",
-    "headers": [],
-    "path": "/php-core/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. File",
-    "headers": [],
-    "path": "/php-core/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. MySQLi căn bản",
-    "headers": [],
-    "path": "/php-core/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7. MySQLi nâng cao",
-    "headers": [],
-    "path": "/php-core/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8. Session, Cookie và PDO",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Đề bài",
-        "slug": "_1-đe-bai",
-        "children": []
-      }
-    ],
-    "path": "/php-core/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
     "path": "/java-oop/",
     "pathLocale": "/",
     "extraFields": []
@@ -1792,6 +1715,83 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
+    "path": "/php-core/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Giới thiệu về PHP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tìm hiểu về Request và Response",
+        "slug": "tim-hieu-ve-request-va-response",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
+    "headers": [],
+    "path": "/php-core/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Hàm và HTML",
+    "headers": [],
+    "path": "/php-core/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Forms",
+    "headers": [],
+    "path": "/php-core/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. File",
+    "headers": [],
+    "path": "/php-core/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. MySQLi căn bản",
+    "headers": [],
+    "path": "/php-core/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. MySQLi nâng cao",
+    "headers": [],
+    "path": "/php-core/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Session, Cookie và PDO",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Đề bài",
+        "slug": "_1-đe-bai",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
     "path": "/spring-boot/",
     "pathLocale": "/",
     "extraFields": []
@@ -1925,6 +1925,14 @@ export const searchIndex = [
     "path": "/spring-boot/session8.html",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Links"
   },
   {
     "title": "Lời nói đầu",
@@ -2208,12 +2216,103 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
+    "title": "Tìm hiểu về giải thuật tham lam",
+    "subtitle": "Cấu trúc dữ liệu và giải thuật",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Giới thiệu",
+        "slug": "gioi-thieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tổng quan về giải thuật",
+        "slug": "tong-quan-ve-giai-thuat",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ 1",
+            "slug": "vi-du-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán",
+        "slug": "thuat-toan",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tính chất lựa chọn tham lam",
+            "slug": "tinh-chat-lua-chon-tham-lam",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cấu trúc con tối ưu",
+            "slug": "cau-truc-con-toi-uu",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ 2",
+            "slug": "vi-du-2",
+            "children": [
+              {
+                "level": 4,
+                "title": "Đề bài",
+                "slug": "đe-bai",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Bài giải",
+                "slug": "bai-giai",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ 3",
+            "slug": "vi-du-3",
+            "children": [
+              {
+                "level": 4,
+                "title": "Tính đúng đắn của thuật toán",
+                "slug": "tinh-đung-đan-cua-thuat-toan",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Phân tích thời gian",
+                "slug": "phan-tich-thoi-gian",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Tổng kết",
+            "slug": "tong-ket",
+            "children": [
+              {
+                "level": 4,
+                "title": "Liên kết",
+                "slug": "lien-ket",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/post/algorithm/greedy/",
     "pathLocale": "/",
     "extraFields": [],
-    "layout": "Links"
+    "layout": "Post"
   },
   {
     "title": "Xây dựng Json Web Token trong NodeJS",
@@ -2566,105 +2665,6 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
-    "title": "Tìm hiểu về giải thuật tham lam",
-    "subtitle": "Cấu trúc dữ liệu và giải thuật",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Giới thiệu",
-        "slug": "gioi-thieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tổng quan về giải thuật",
-        "slug": "tong-quan-ve-giai-thuat",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ 1",
-            "slug": "vi-du-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán",
-        "slug": "thuat-toan",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tính chất lựa chọn tham lam",
-            "slug": "tinh-chat-lua-chon-tham-lam",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cấu trúc con tối ưu",
-            "slug": "cau-truc-con-toi-uu",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ 2",
-            "slug": "vi-du-2",
-            "children": [
-              {
-                "level": 4,
-                "title": "Đề bài",
-                "slug": "đe-bai",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Bài giải",
-                "slug": "bai-giai",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Ví dụ 3",
-            "slug": "vi-du-3",
-            "children": [
-              {
-                "level": 4,
-                "title": "Tính đúng đắn của thuật toán",
-                "slug": "tinh-đung-đan-cua-thuat-toan",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Phân tích thời gian",
-                "slug": "phan-tich-thoi-gian",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Tổng kết",
-            "slug": "tong-ket",
-            "children": [
-              {
-                "level": 4,
-                "title": "Liên kết",
-                "slug": "lien-ket",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/post/algorithm/greedy/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/posts/swing/qr-extension.html",
@@ -2696,6 +2696,30 @@ export const searchIndex = [
     "layout": "HomePage"
   },
   {
+    "title": "Algorithm | Tags",
+    "headers": [],
+    "path": "/tags/algorithm/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Thuật toán | Tags",
+    "headers": [],
+    "path": "/tags/thu%E1%BA%ADt-to%C3%A1n/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Giải thuật | Tags",
+    "headers": [],
+    "path": "/tags/gi%E1%BA%A3i-thu%E1%BA%ADt/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
     "title": "Backend | Tags",
     "headers": [],
     "path": "/tags/backend/",
@@ -2723,30 +2747,6 @@ export const searchIndex = [
     "title": "SpringBoot | Tags",
     "headers": [],
     "path": "/tags/springboot/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Algorithm | Tags",
-    "headers": [],
-    "path": "/tags/algorithm/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Thuật toán | Tags",
-    "headers": [],
-    "path": "/tags/thu%E1%BA%ADt-to%C3%A1n/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Giải thuật | Tags",
-    "headers": [],
-    "path": "/tags/gi%E1%BA%A3i-thu%E1%BA%ADt/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Tags"

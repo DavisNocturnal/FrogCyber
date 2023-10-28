@@ -372,6 +372,21 @@ export default defineUserConfig({
 								link: "https://drive.google.com/file/d/1NwcJDIDDAOgHz5DlDc22Og6H12Zsit-9/view?usp=drive_link",
 								icon: "si-adobepremierepro"
 							},
+							{
+								text: "Lightroom Classic 2023",
+								link: "https://drive.google.com/file/d/1xpRDeSOg6JgTlX66XUAL8XR95-kYf-om/view?usp=sharing",
+								icon: "si-adobelightroom"
+							},
+							{
+								text: "Audition 2023",
+								link: "https://drive.google.com/file/d/1zw7_seC8aiym6FS8X3H_ubqkkD0rVN_M/view?usp=sharing",
+								icon: "si-adobeaudition"
+							},
+							{
+								text: "Media Encoder 2023",
+								link: "https://drive.google.com/file/d/1yQBVkxIYwE4R2M5RrIY_mynhOa2VJfYT/view?usp=sharing",
+								icon: "co-adobe"
+							},
 						]
 					},
 					{
