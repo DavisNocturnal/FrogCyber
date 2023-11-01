@@ -104,6 +104,930 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
+    "path": "/dsa/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tổng quan về DSA",
+    "headers": [
+      {
+        "level": 2,
+        "title": "DSA là gì?",
+        "slug": "dsa-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cấu trúc dữ liệu là gì?",
+        "slug": "cau-truc-du-lieu-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thuật toán là gì?",
+        "slug": "thuat-toan-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Làm thế nào để bắt đầu học DSA?",
+        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Tìm hiểu về Sự phức tạp",
+            "slug": "_1-tim-hieu-ve-su-phuc-tap",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Danh sách đặc",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách đặc là gì?",
+        "slug": "danh-sach-đac-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mảng",
+        "slug": "mang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Chuỗi",
+        "slug": "chuoi",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Danh sách liên kết",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách liên kết là gì?",
+        "slug": "danh-sach-lien-ket-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
+        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các loại danh sách liên kết:",
+        "slug": "cac-loai-danh-sach-lien-ket",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Danh sách liên kết đơn:",
+            "slug": "_1-danh-sach-lien-ket-đon",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Danh sách liên kết kép:",
+            "slug": "_2-danh-sach-lien-ket-kep",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Danh mục liên kết thông tư:",
+            "slug": "_3-danh-muc-lien-ket-thong-tu",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Hoạt động trên danh sách liên kết",
+        "slug": "hoat-đong-tren-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ưu điểm của danh sách liên kết",
+        "slug": "uu-điem-cua-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hành",
+        "slug": "thuc-hanh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng linkedList.h",
+            "slug": "su-dung-linkedlist-h",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng sentenceList.h",
+            "slug": "su-dung-sentencelist-h",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Kết thúc:",
+        "slug": "ket-thuc",
+        "children": []
+      }
+    ],
+    "path": "/dsa/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/github/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Setup môi trường",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Git là gì?",
+        "slug": "git-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "GitHub là gì?",
+        "slug": "github-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cài đặt Git và Tạo tài khoản GitHub",
+        "slug": "cai-đat-git-va-tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo tài khoản GitHub",
+        "slug": "tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Đăng nhập vào Git",
+        "slug": "đang-nhap-vao-git",
+        "children": []
+      }
+    ],
+    "path": "/github/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Đẩy code lên GitHub",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Quy trình đẩy code",
+        "slug": "quy-trinh-đay-code",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo Repository tại GitHub.com",
+        "slug": "tao-repository-tai-github-com",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Clone Repo về máy tính của bạn",
+        "slug": "clone-repo-ve-may-tinh-cua-ban",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Lấy lại toàn bộ code từ repo về máy tính",
+        "slug": "lay-lai-toan-bo-code-tu-repo-ve-may-tinh",
+        "children": []
+      }
+    ],
+    "path": "/github/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3 Undo khi gặp một commit sai",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Ví dụ",
+        "slug": "vi-du",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.1 Git Reset",
+        "slug": "_3-1-git-reset",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2 Git Revert",
+        "slug": "_3-2-git-revert",
+        "children": []
+      }
+    ],
+    "path": "/github/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4 Làm việc nhóm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Quy trình làm việc",
+        "slug": "quy-trinh-lam-viec",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thêm thành viên vào Repository",
+        "slug": "them-thanh-vien-vao-repository",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xác nhận tham gia",
+        "slug": "xac-nhan-tham-gia",
+        "children": []
+      }
+    ],
+    "path": "/github/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Làm việc với nhánh",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tạo nhánh",
+        "slug": "tao-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Di chuyển qua lại giữa các nhánh",
+        "slug": "di-chuyen-qua-lai-giua-cac-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Gộp nhánh",
+        "slug": "gop-nhanh",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xóa nhánh",
+        "slug": "xoa-nhanh",
+        "children": []
+      }
+    ],
+    "path": "/github/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Thao tác bằng GitHub Desktop",
+    "headers": [],
+    "path": "/github/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7",
+    "headers": [],
+    "path": "/github/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8",
+    "headers": [],
+    "path": "/github/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/java-oop/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Lập trình hướng đối tượng",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
+        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lập trình cấu trúc là gì",
+            "slug": "lap-trinh-cau-truc-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao hướng đối tượng có ưu thế hơn",
+            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Lập trình hướng đối tượng",
+        "slug": "_3-lap-trinh-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ:",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Biểu diễn bằng code",
+        "slug": "_4-bieu-dien-bang-code",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo project",
+            "slug": "tao-project",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo lớp đối tượng",
+            "slug": "tao-lop-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo thuộc tính cho đối tượng",
+            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo phương thức cho đối tượng",
+            "slug": "tao-phuong-thuc-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo đối tượng từ lớp khác",
+            "slug": "tao-đoi-tuong-tu-lop-khac",
+            "children": [
+              {
+                "level": 4,
+                "title": "Gọi lại đối tượng",
+                "slug": "goi-lai-đoi-tuong",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Xuất giá trị thuộc tính",
+                "slug": "xuat-gia-tri-thuoc-tinh",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Gọi phương thức của đối tượng",
+                "slug": "goi-phuong-thuc-cua-đoi-tuong",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Các tính chất",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
+        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lập trình cấu trúc là gì",
+            "slug": "lap-trinh-cau-truc-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao hướng đối tượng có ưu thế hơn",
+            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Lập trình hướng đối tượng",
+        "slug": "_3-lap-trinh-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ:",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Biểu diễn bằng code",
+        "slug": "_4-bieu-dien-bang-code",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo project",
+            "slug": "tao-project",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo lớp đối tượng",
+            "slug": "tao-lop-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo thuộc tính cho đối tượng",
+            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo phương thức cho đối tượng",
+            "slug": "tao-phuong-thuc-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo đối tượng từ lớp khác",
+            "slug": "tao-đoi-tuong-tu-lop-khac",
+            "children": [
+              {
+                "level": 4,
+                "title": "Gọi lại đối tượng",
+                "slug": "goi-lai-đoi-tuong",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Xuất giá trị thuộc tính",
+                "slug": "xuat-gia-tri-thuoc-tinh",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Gọi phương thức của đối tượng",
+                "slug": "goi-phuong-thuc-cua-đoi-tuong",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/nodejs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Tìm hiểu về NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "NodeJS là gì",
+        "slug": "nodejs-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mô hình hoạt động của NodeJS",
+        "slug": "mo-hinh-hoat-đong-cua-nodejs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Download và cài đặt NodeJS",
+        "slug": "download-va-cai-đat-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Download NodeJS",
+            "slug": "_1-download-nodejs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Cài đặt NodeJS",
+            "slug": "_2-cai-đat-nodejs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Kiểm tra và cấu hình",
+            "slug": "_3-kiem-tra-va-cau-hinh",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Test họat động của NodeJS",
+            "slug": "_4-test-hoat-đong-cua-nodejs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Module trong NodeJS",
+        "slug": "module-trong-nodejs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo project",
+        "slug": "tao-project",
+        "children": [
+          {
+            "level": 4,
+            "title": "Cài đặt express",
+            "slug": "cai-đat-express",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Tạo file server.js sử dụng module express",
+            "slug": "tao-file-server-js-su-dung-module-express",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Chạy server.js",
+            "slug": "chay-server-js",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/nodejs/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Tìm hiểu về Ejs",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Cài đặt EJS",
+        "slug": "cai-đat-ejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng lệnh if",
+            "slug": "su-dung-lenh-if",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Vòng lặp for trong ejs view",
+            "slug": "vong-lap-for-trong-ejs-view",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng CSS trong view ejs",
+            "slug": "su-dung-css-trong-view-ejs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Nhận tham số dạng từ url",
+        "slug": "nhan-tham-so-dang-tu-url",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Sử dụng form",
+        "slug": "su-dung-form",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Upload hình trong form",
+        "slug": "upload-hinh-trong-form",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xoá ảnh",
+        "slug": "xoa-anh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Làm việc với MySql",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Lập trình MVC",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Giới thiệu Restful API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Các quy định http method trong restful",
+        "slug": "cac-quy-đinh-http-method-trong-restful",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
+        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hiện restful api trong nodejs",
+        "slug": "thuc-hien-restful-api-trong-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Chuẩn bị database",
+            "slug": "chuan-bi-database",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cài module express và express-generator",
+            "slug": "cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo project để thực tập",
+            "slug": "tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo model kết nối db",
+            "slug": "tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo route",
+            "slug": "tao-route",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng danh sách record",
+            "slug": "thuc-hien-chuc-nang-danh-sach-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện lấy chi tiết record",
+            "slug": "thuc-hien-lay-chi-tiet-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng thêm record",
+            "slug": "thuc-hien-chuc-nang-them-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng cập nhật record",
+            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng xóa record",
+            "slug": "thuc-hien-chuc-nang-xoa-record",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/nodejs/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Xây dựng Restful API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Chuẩn bị để sử dụng restful api",
+        "slug": "chuan-bi-đe-su-dung-restful-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Tạo database và table",
+            "slug": "_1-tao-database-va-table",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Cài module express và express-generator",
+            "slug": "_2-cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Tạo project để thực tập",
+            "slug": "_3-tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Tạo model kết nối db",
+            "slug": "_4-tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. Tạo controller",
+            "slug": "_5-tao-controller",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Dùng hàm fetch() để gọi API",
+        "slug": "dung-ham-fetch-đe-goi-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo request với method get",
+            "slug": "tao-request-voi-method-get",
+            "children": [
+              {
+                "level": 4,
+                "title": "Ví dụ 1: Gọi hàm API",
+                "slug": "vi-du-1-goi-ham-api",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Đọc dữ liệu từ 1 object json",
+            "slug": "đoc-du-lieu-tu-1-object-json",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Gọi API với method POST",
+            "slug": "goi-api-voi-method-post",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Sử dụng thư viện Axios",
+        "slug": "su-dung-thu-vien-axios",
+        "children": [
+          {
+            "level": 3,
+            "title": "Cài đặt axios",
+            "slug": "cai-đat-axios",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Ví dụ sử dụng axios",
+        "slug": "vi-du-su-dung-axios",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. Xác thực và xác nhận người dùng",
+    "headers": [],
+    "path": "/nodejs/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Làm việc với MongoDB",
+    "headers": [],
+    "path": "/nodejs/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
     "path": "/java-core/",
     "pathLocale": "/",
     "extraFields": []
@@ -791,930 +1715,6 @@ export const searchIndex = [
   {
     "title": "Lời nói đầu",
     "headers": [],
-    "path": "/dsa/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tổng quan về DSA",
-    "headers": [
-      {
-        "level": 2,
-        "title": "DSA là gì?",
-        "slug": "dsa-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cấu trúc dữ liệu là gì?",
-        "slug": "cau-truc-du-lieu-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thuật toán là gì?",
-        "slug": "thuat-toan-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Làm thế nào để bắt đầu học DSA?",
-        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Tìm hiểu về Sự phức tạp",
-            "slug": "_1-tim-hieu-ve-su-phuc-tap",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Tổng kết",
-        "slug": "tong-ket",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Danh sách đặc",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Danh sách đặc là gì?",
-        "slug": "danh-sach-đac-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mảng",
-        "slug": "mang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Chuỗi",
-        "slug": "chuoi",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Danh sách liên kết",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Danh sách liên kết là gì?",
-        "slug": "danh-sach-lien-ket-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
-        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Các loại danh sách liên kết:",
-        "slug": "cac-loai-danh-sach-lien-ket",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Danh sách liên kết đơn:",
-            "slug": "_1-danh-sach-lien-ket-đon",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Danh sách liên kết kép:",
-            "slug": "_2-danh-sach-lien-ket-kep",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Danh mục liên kết thông tư:",
-            "slug": "_3-danh-muc-lien-ket-thong-tu",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Hoạt động trên danh sách liên kết",
-        "slug": "hoat-đong-tren-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Ưu điểm của danh sách liên kết",
-        "slug": "uu-điem-cua-danh-sach-lien-ket",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thực hành",
-        "slug": "thuc-hanh",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sử dụng linkedList.h",
-            "slug": "su-dung-linkedlist-h",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sử dụng sentenceList.h",
-            "slug": "su-dung-sentencelist-h",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Kết thúc:",
-        "slug": "ket-thuc",
-        "children": []
-      }
-    ],
-    "path": "/dsa/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/github/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Setup môi trường",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Git là gì?",
-        "slug": "git-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "GitHub là gì?",
-        "slug": "github-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Cài đặt Git và Tạo tài khoản GitHub",
-        "slug": "cai-đat-git-va-tao-tai-khoan-github",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo tài khoản GitHub",
-        "slug": "tao-tai-khoan-github",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Đăng nhập vào Git",
-        "slug": "đang-nhap-vao-git",
-        "children": []
-      }
-    ],
-    "path": "/github/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Đẩy code lên GitHub",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Quy trình đẩy code",
-        "slug": "quy-trinh-đay-code",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo Repository tại GitHub.com",
-        "slug": "tao-repository-tai-github-com",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Clone Repo về máy tính của bạn",
-        "slug": "clone-repo-ve-may-tinh-cua-ban",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Lấy lại toàn bộ code từ repo về máy tính",
-        "slug": "lay-lai-toan-bo-code-tu-repo-ve-may-tinh",
-        "children": []
-      }
-    ],
-    "path": "/github/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3 Undo khi gặp một commit sai",
-    "headers": [
-      {
-        "level": 3,
-        "title": "Ví dụ",
-        "slug": "vi-du",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.1 Git Reset",
-        "slug": "_3-1-git-reset",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2 Git Revert",
-        "slug": "_3-2-git-revert",
-        "children": []
-      }
-    ],
-    "path": "/github/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4 Làm việc nhóm",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Quy trình làm việc",
-        "slug": "quy-trinh-lam-viec",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thêm thành viên vào Repository",
-        "slug": "them-thanh-vien-vao-repository",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xác nhận tham gia",
-        "slug": "xac-nhan-tham-gia",
-        "children": []
-      }
-    ],
-    "path": "/github/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Làm việc với nhánh",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Tạo nhánh",
-        "slug": "tao-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Di chuyển qua lại giữa các nhánh",
-        "slug": "di-chuyen-qua-lai-giua-cac-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Gộp nhánh",
-        "slug": "gop-nhanh",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xóa nhánh",
-        "slug": "xoa-nhanh",
-        "children": []
-      }
-    ],
-    "path": "/github/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Thao tác bằng GitHub Desktop",
-    "headers": [],
-    "path": "/github/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7",
-    "headers": [],
-    "path": "/github/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8",
-    "headers": [],
-    "path": "/github/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/nodejs/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Tìm hiểu về NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "NodeJS là gì",
-        "slug": "nodejs-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mô hình hoạt động của NodeJS",
-        "slug": "mo-hinh-hoat-đong-cua-nodejs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Download và cài đặt NodeJS",
-        "slug": "download-va-cai-đat-nodejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Download NodeJS",
-            "slug": "_1-download-nodejs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Cài đặt NodeJS",
-            "slug": "_2-cai-đat-nodejs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Kiểm tra và cấu hình",
-            "slug": "_3-kiem-tra-va-cau-hinh",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Test họat động của NodeJS",
-            "slug": "_4-test-hoat-đong-cua-nodejs",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Module trong NodeJS",
-        "slug": "module-trong-nodejs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo project",
-        "slug": "tao-project",
-        "children": [
-          {
-            "level": 4,
-            "title": "Cài đặt express",
-            "slug": "cai-đat-express",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Tạo file server.js sử dụng module express",
-            "slug": "tao-file-server-js-su-dung-module-express",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Chạy server.js",
-            "slug": "chay-server-js",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/nodejs/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Tìm hiểu về Ejs",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Cài đặt EJS",
-        "slug": "cai-đat-ejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sử dụng lệnh if",
-            "slug": "su-dung-lenh-if",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Vòng lặp for trong ejs view",
-            "slug": "vong-lap-for-trong-ejs-view",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sử dụng CSS trong view ejs",
-            "slug": "su-dung-css-trong-view-ejs",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Nhận tham số dạng từ url",
-        "slug": "nhan-tham-so-dang-tu-url",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Sử dụng form",
-        "slug": "su-dung-form",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Upload hình trong form",
-        "slug": "upload-hinh-trong-form",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xoá ảnh",
-        "slug": "xoa-anh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Làm việc với MySql",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Lập trình MVC",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Giới thiệu Restful API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Các quy định http method trong restful",
-        "slug": "cac-quy-đinh-http-method-trong-restful",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
-        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thực hiện restful api trong nodejs",
-        "slug": "thuc-hien-restful-api-trong-nodejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "Chuẩn bị database",
-            "slug": "chuan-bi-database",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cài module express và express-generator",
-            "slug": "cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo project để thực tập",
-            "slug": "tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo model kết nối db",
-            "slug": "tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo route",
-            "slug": "tao-route",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng danh sách record",
-            "slug": "thuc-hien-chuc-nang-danh-sach-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện lấy chi tiết record",
-            "slug": "thuc-hien-lay-chi-tiet-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng thêm record",
-            "slug": "thuc-hien-chuc-nang-them-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng cập nhật record",
-            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng xóa record",
-            "slug": "thuc-hien-chuc-nang-xoa-record",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/nodejs/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Xây dựng Restful API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Chuẩn bị để sử dụng restful api",
-        "slug": "chuan-bi-đe-su-dung-restful-api",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Tạo database và table",
-            "slug": "_1-tao-database-va-table",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Cài module express và express-generator",
-            "slug": "_2-cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Tạo project để thực tập",
-            "slug": "_3-tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Tạo model kết nối db",
-            "slug": "_4-tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. Tạo controller",
-            "slug": "_5-tao-controller",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Dùng hàm fetch() để gọi API",
-        "slug": "dung-ham-fetch-đe-goi-api",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo request với method get",
-            "slug": "tao-request-voi-method-get",
-            "children": [
-              {
-                "level": 4,
-                "title": "Ví dụ 1: Gọi hàm API",
-                "slug": "vi-du-1-goi-ham-api",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Đọc dữ liệu từ 1 object json",
-            "slug": "đoc-du-lieu-tu-1-object-json",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Gọi API với method POST",
-            "slug": "goi-api-voi-method-post",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Sử dụng thư viện Axios",
-        "slug": "su-dung-thu-vien-axios",
-        "children": [
-          {
-            "level": 3,
-            "title": "Cài đặt axios",
-            "slug": "cai-đat-axios",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Ví dụ sử dụng axios",
-        "slug": "vi-du-su-dung-axios",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7. Xác thực và xác nhận người dùng",
-    "headers": [],
-    "path": "/nodejs/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8. Làm việc với MongoDB",
-    "headers": [],
-    "path": "/nodejs/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/java-oop/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Lập trình hướng đối tượng",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Khái niệm",
-        "slug": "_1-khai-niem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
-        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Lập trình cấu trúc là gì",
-            "slug": "lap-trinh-cau-truc-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao hướng đối tượng có ưu thế hơn",
-            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. Lập trình hướng đối tượng",
-        "slug": "_3-lap-trinh-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ:",
-            "slug": "vi-du",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. Biểu diễn bằng code",
-        "slug": "_4-bieu-dien-bang-code",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo project",
-            "slug": "tao-project",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo lớp đối tượng",
-            "slug": "tao-lop-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo thuộc tính cho đối tượng",
-            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo phương thức cho đối tượng",
-            "slug": "tao-phuong-thuc-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo đối tượng từ lớp khác",
-            "slug": "tao-đoi-tuong-tu-lop-khac",
-            "children": [
-              {
-                "level": 4,
-                "title": "Gọi lại đối tượng",
-                "slug": "goi-lai-đoi-tuong",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Xuất giá trị thuộc tính",
-                "slug": "xuat-gia-tri-thuoc-tinh",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Gọi phương thức của đối tượng",
-                "slug": "goi-phuong-thuc-cua-đoi-tuong",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Các tính chất",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Khái niệm",
-        "slug": "_1-khai-niem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
-        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Lập trình cấu trúc là gì",
-            "slug": "lap-trinh-cau-truc-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao hướng đối tượng có ưu thế hơn",
-            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. Lập trình hướng đối tượng",
-        "slug": "_3-lap-trinh-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ:",
-            "slug": "vi-du",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. Biểu diễn bằng code",
-        "slug": "_4-bieu-dien-bang-code",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo project",
-            "slug": "tao-project",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo lớp đối tượng",
-            "slug": "tao-lop-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo thuộc tính cho đối tượng",
-            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo phương thức cho đối tượng",
-            "slug": "tao-phuong-thuc-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo đối tượng từ lớp khác",
-            "slug": "tao-đoi-tuong-tu-lop-khac",
-            "children": [
-              {
-                "level": 4,
-                "title": "Gọi lại đối tượng",
-                "slug": "goi-lai-đoi-tuong",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Xuất giá trị thuộc tính",
-                "slug": "xuat-gia-tri-thuoc-tinh",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Gọi phương thức của đối tượng",
-                "slug": "goi-phuong-thuc-cua-đoi-tuong",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
     "path": "/php-core/",
     "pathLocale": "/",
     "extraFields": []
@@ -1925,14 +1925,6 @@ export const searchIndex = [
     "path": "/spring-boot/session8.html",
     "pathLocale": "/",
     "extraFields": []
-  },
-  {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Links"
   },
   {
     "title": "Lời nói đầu",
@@ -2214,6 +2206,14 @@ export const searchIndex = [
     "path": "/sql-server/session8.html",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Links"
   },
   {
     "title": "Tìm hiểu về giải thuật tham lam",
@@ -2559,6 +2559,38 @@ export const searchIndex = [
         "level": 2,
         "title": "Tạo các services",
         "slug": "tao-cac-services",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lớp JwtService",
+            "slug": "lop-jwtservice",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Lớp Authenticationservice",
+            "slug": "lop-authenticationservice",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Viết API",
+        "slug": "viet-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "Viết api đăng nhập",
+            "slug": "viet-api-đang-nhap",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Lời kết",
+        "slug": "loi-ket",
         "children": []
       },
       {
@@ -2568,8 +2600,8 @@ export const searchIndex = [
         "children": [
           {
             "level": 4,
-            "title": "SEAN APP",
-            "slug": "sean-app",
+            "title": "Spring",
+            "slug": "spring",
             "children": []
           },
           {
@@ -2672,6 +2704,212 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Các Câu Hỏi Phỏng Vấn Java Thường Gặp P.1",
+    "subtitle": "Ôn tập phỏng vấn cùng Ếch",
+    "headers": [
+      {
+        "level": 2,
+        "title": "I. Các câu hỏi Java core",
+        "slug": "i-cac-cau-hoi-java-core",
+        "children": [
+          {
+            "level": 3,
+            "title": "JDK, JRE và JVM là gì?",
+            "slug": "jdk-jre-va-jvm-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Đặc điểm nổi bật của Java 8",
+            "slug": "đac-điem-noi-bat-cua-java-8",
+            "children": [
+              {
+                "level": 4,
+                "title": "1. Lambda Expression",
+                "slug": "_1-lambda-expression",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "2. Default method in Interface",
+                "slug": "_2-default-method-in-interface",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "3. Optional Class",
+                "slug": "_3-optional-class",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "4. Java Stream API",
+                "slug": "_4-java-stream-api",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "5. Functional Interface",
+                "slug": "_5-functional-interface",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "6. Java Date Time API",
+                "slug": "_6-java-date-time-api",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Giải thích phương thức main() trong chương trình Java",
+            "slug": "giai-thich-phuong-thuc-main-trong-chuong-trinh-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao không sử dụng con trỏ trong Java?",
+            "slug": "tai-sao-khong-su-dung-con-tro-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao Java lại độc lập nền tảng?",
+            "slug": "tai-sao-java-lai-đoc-lap-nen-tang",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Package trong Java là gì? Liệt kê những ưu điểm của các package",
+            "slug": "package-trong-java-la-gi-liet-ke-nhung-uu-điem-cua-cac-package",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Khác biệt giữa bộ nhớ Stack và Heap",
+            "slug": "khac-biet-giua-bo-nho-stack-va-heap",
+            "children": [
+              {
+                "level": 4,
+                "title": "Về kích thước vùng nhớ",
+                "slug": "ve-kich-thuoc-vung-nho",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Về đặc điểm vùng nhớ",
+                "slug": "ve-đac-điem-vung-nho",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Lỗi xảy ra với vùng nhớ",
+                "slug": "loi-xay-ra-voi-vung-nho",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Hãy nêu sự khác biệt giữa biến local và biến instance",
+            "slug": "hay-neu-su-khac-biet-giua-bien-local-va-bien-instance",
+            "children": [
+              {
+                "level": 4,
+                "title": "Biến local",
+                "slug": "bien-local",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Biến instance",
+                "slug": "bien-instance",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa final trong Java là gì?",
+            "slug": "tu-khoa-final-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa static trong Java là gì?",
+            "slug": "tu-khoa-static-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Từ khóa super trong Java",
+            "slug": "tu-khoa-super-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mô tả sự khác biệt giữa String, StringBuilder và StringBuffer",
+            "slug": "mo-ta-su-khac-biet-giua-string-stringbuilder-va-stringbuffer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Constructors trong Java là gì?",
+            "slug": "constructors-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các lớp wrapper trong Java là gì?",
+            "slug": "cac-lop-wrapper-trong-java-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Có bắt buộc phải khai báo constructor trong lớp?",
+            "slug": "co-bat-buoc-phai-khai-bao-constructor-trong-lop",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các loại phạm vi truy cập trong Java",
+            "slug": "cac-loai-pham-vi-truy-cap-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trình biên dịch JIT trong Java",
+            "slug": "trinh-bien-dich-jit-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mô tả khác biệt giữa constructor và phương thức trong Java",
+            "slug": "mo-ta-khac-biet-giua-constructor-va-phuong-thuc-trong-java",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sự khác biệt giữa từ khóa break và continue",
+            "slug": "su-khac-biet-giua-tu-khoa-break-va-continue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Liên kết",
+        "slug": "lien-ket",
+        "children": []
+      }
+    ],
+    "path": "/post/backend/java-core-session1/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -2747,6 +2985,30 @@ export const searchIndex = [
     "title": "SpringBoot | Tags",
     "headers": [],
     "path": "/tags/springboot/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "interview | Tags",
+    "headers": [],
+    "path": "/tags/interview/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Java | Tags",
+    "headers": [],
+    "path": "/tags/java/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Fresher | Tags",
+    "headers": [],
+    "path": "/tags/fresher/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Tags"

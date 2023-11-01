@@ -5,7 +5,7 @@ subtitle: Session, Cookie là gì?
 author: Trần Hữu Đang
 date: 2023-09-03
 useHeaderImage: false
-headerImage: https://github.com/dangtranhuu/images/blob/main/angurvad/backend/session-cookie/banner.png?raw=true
+headerImage: img/in-post/back-end/session-cookie.png
 headerMask: rgba(70, 112, 80, 0.5)
 permalinkPattern: /post/backend/:slug/
 tags:

@@ -5,7 +5,7 @@ subtitle: Phân quyền và đăng nhập trong Spring Boot
 author: Trần Hữu Đang
 date: 2023-10-27
 useHeaderImage: false
-headerImage: https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/1.png?raw=true
+headerImage: img/in-post/back-end/jwtspringboot.png
 headerMask: rgba(70, 112, 80, 0)
 permalinkPattern: /post/backend/:slug/
 tags:
@@ -17,9 +17,9 @@ tags:
 
 [JWT]() là một hình thức xác thực người dùng rất bảo mật, hiệu quả và phổ biến trong mô hình[CSR]()
 
-![](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/1.png?raw=true)
+![](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtspringboot/main.png?raw=true)
 
-Trong lúc tự học NodeJS mình đã xây dựng một Web app (SpringBoot, SQL, Angular). Bạn có thể xem mã nguồn tại [đây](https://github.com/Theanishtar/Davitickets)
+Trong lúc tự học RestfulAPI với [SpringBoot]() mình đã xây dựng một Web app (SpringBoot, SQL, Angular). Bạn có thể xem mã nguồn tại [đây](https://github.com/Theanishtar/Davitickets)
 
 Trong đó có chức năng Xác thực bằng **JWT** *(Json Web Token)*, mình sẽ cùng tìm hiểu trong bài viết hôm nay nhé!!!
 
@@ -31,13 +31,14 @@ Okay bắt đầu thoy !!!
 
 :::details <b>Nội dung chính</b>
 
-![Nguyên lý](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/2.png?raw=true)
+Sẽ cập nhật sau ^^
+<!-- ![Nguyên lý](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/2.png?raw=true)
 ![Thành phần](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/3.png?raw=true)
 ![Tính chất lựa ](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/4.png?raw=truee)
 ![Ưu điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/5.png?raw=true)
 ![Nhược điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/6.png?raw=true)
 ![Bài tập](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/7.png?raw=true)
-![Bài giải](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/8.png?raw=true)
+![Bài giải](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/8.png?raw=true) -->
 :::
 
 ## Xây dựng CSDL
@@ -148,50 +149,35 @@ Kết quả:
 
 ### Tạo dự án với Spring Tools Sute
 
-Các bạn tạo dự `Spring Stater Project` và thêm các `dependencys` sau nhé (mình sẽ bỏ qua các _dependencies_ mặc định và chỉ đề cập đến những _dependencies_ cần thiết cho dự án hôm nay thôi nhé)
+:::tip <b>MẸO</b>
+Các bạn có thể tải [Spring Tools Sute](/post/backend/jwt-springboot/#spring) tại [đây]() nhé.
+
+Hoặc cũng có thể sử dụng [VS Code](/post/backend/jwt-springboot/#spring) thay thế!
+:::
+
+Các bạn tạo dự `Spring Stater Project` và thêm các `dependencies` sau nhé (mình sẽ bỏ qua các _dependencies_ mặc định và chỉ đề cập đến những _dependencies_ cần thiết cho dự án hôm nay thôi nhé)
 
 _pom.xml_
 ```xml
 <dependencies>		
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		
-		<!-- Addition -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+	<dependency>
+		<groupId>io.jsonwebtoken</groupId>
+		<artifactId>jjwt</artifactId>
+		<version>0.9.1</version>
+	</dependency>
 
-		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-oauth2-client</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt</artifactId>
-			<version>0.9.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.auth0</groupId>
-			<artifactId>java-jwt</artifactId>
-			<version>3.19.2</version>
-		</dependency>
-	</dependencies>
+	<dependency>
+		<groupId>com.auth0</groupId>
+		<artifactId>java-jwt</artifactId>
+		<version>3.19.2</version>
+	</dependency>
+</dependencies>
 ```
 
 
 ### Cấu hình các biến môi trường
+
+- Tùy chỉnh theo yêu cầu của bạn trong tệp [`application.properties`](/post/backend/jwt-springboot/#spring)
 
 ```properties
 spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
@@ -418,10 +404,126 @@ public class AuthenticationResponse {
 
 ## Tạo các services
 
+### Lớp JwtService
+
+Tạo lớp `JwtService.java` và thêm hai phương thức sau:
+
+```java
+@Configuration
+public class JwtService {
+	@Value("${jwt.secret}")
+    private String secret;
+	
+    public static final long    JWT_TOKEN_VALIDITY  = 5 * 60 * 60 * 1000; 
+	
+	// phương thức khởi tạo access token
+	public String generateToken(Users user, Collection<SimpleGrantedAuthority> authorities) {
+		Algorithm algorithm = Algorithm.HMAC256(secret.getBytes());
+		
+		return JWT.create()
+				.withSubject(user.getEmail())
+				.withExpiresAt(new Date(System.currentTimeMillis()+ JWT_TOKEN_VALIDITY))
+				.withClaim("roles", authorities.stream().map(GrantedAuthority:: getAuthority).collect(Collectors.toList()))
+				.sign(algorithm);
+	}
+	
+	// phương thức khởi tạo refresh token
+	public String generateRefreshToken(Users user, Collection<SimpleGrantedAuthority> authorities) {
+		Algorithm algorithm = Algorithm.HMAC256(secret.getBytes());
+		
+		return JWT.create()
+				.withSubject(user.getEmail())
+				.withExpiresAt(new Date(System.currentTimeMillis()+JWT_TOKEN_VALIDITY))
+				.sign(algorithm);
+	}
+}
+```
+### Lớp Authenticationservice
+
+Bên trong lớp `AuthenticationService.java` tạo phương thức `LoginAuth`
+
+
+```java
+@Service
+@RequiredArgsConstructor
+@Configuration
+@EnableWebSecurity
+public class AuthenticationService {
+	private final UsersReponsitory usersReponsitory;
+
+	@Autowired
+	private final AuthenticationManager authenticationManager;
+	private final RoleCustomRepo roleCustomRepo;
+	private final JwtService jwtService;
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+
+	public AuthenticationResponse loginAuth(AuthenticationRequest authenticationRequest) {
+		try {
+			// tìm kiếm user với email nhận từ Request
+			Users user = usersReponsitory.findByEmail(authenticationRequest.getEmail()).orElseThrow();
+			if(!user.isAccount_status()) return null;
+
+			// Nếu tồn tại và không bị khóa thì tạo ra token
+			UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(
+				authenticationRequest.getEmail(), authenticationRequest.getPassword()
+			);
+
+			// lấy ra các quyền của User và truyền vào token
+			Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
+			Set<Roles> set = new HashSet<>();
+			role.stream().forEach(c -> set.add(new Roles(c.getName())));
+			user.setRoles(set);
+			set.stream().forEach(i -> authorities.add(new SimpleGrantedAuthority(i.getName())));
+			authenticationManager.authenticate(token);
+
+			var jwtToken = jwtService.generateToken(user, authorities);
+			var jwtRefreshToken = jwtService.generateRefreshToken(user, authorities);
+
+			// Trả về thông tin cần thiết
+			return AuthenticationResponse.builder().token(jwtToken).refreshToken(jwtRefreshToken)
+					.name(user.getFull_name()).roles(authorities).build();
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return null;
+	}
+}
+```
+
+## Viết API
+
+### Viết api đăng nhập
+
+Tạo lớp `LoginCtrl.java` bên trong package Controller
+
+Mình chỉ viết `controller` để trả về `token` nếu `Request` hợp lệ, còn phần kiểm tra các thông tin khác và trả về thế nào các bạn có thể custom code lại nhá.
+
+```java
+@PostMapping("/oauth/login")
+public ResponseEntity<AuthenticationResponse> authLog(@RequestBody AuthenticationRequest authenticationRequest) {
+	return ResponseEntity.ok(authenticationService.authenticationResponse(authenticationRequest));
+}
+```
+
+## Lời kết
+
+Trên là toàn bộ về [JWT]() trong [SpringBoot](/post/backend/jwt-springboot/#spring).
+
+Kì sau chúng ta sẽ cùng tìm hiểu về [Security]() trong [SpringBoot](/post/backend/jwt-springboot/#spring) nhé...
+
+Chúc các bạn học tập vui vẻ.
+
 ## Chú thích
 
-#### SEAN APP
-- **SEAN**: Ý nói các ứng dụng web được xây dựng bằng <b style="color: green" >S</b>ql, <b style="color: green" >E</b>xpressJS, <b style="color: green" >A</b>ngular, <b style="color: green" >N</b>odejs 
+#### Spring
+- **SpringBoot**: Một **Framework** lập trình phía _back-end_ rất phổ biến của Java.
+
+- **Spring Tools Sute**: Công cụ mở rộng của Eclipse. Spring Tool Suite (STS) là một công cụ mở rộng của Eclipse. Sử dụng để phát triển các ứng dụng Web với Spring.
+
+- **VS Code**: Một Code Editor (không phải IDE). Phổ biến cho việc lập trình, hỗ trợ nhiều ngôn ngữ.
+
+- **`application.properties`**: Một file khai báo các biến môi trường trong ứng dụng **SpringBoot** (Tương tự như `.env` trong NodeJS).
 
 #### Token
 - **AccessToken**: *Token* đã được xác minh
@@ -437,6 +539,3 @@ public class AuthenticationResponse {
 - **HTML**: ngôn ngữ đánh dấu, xây dựng website
 -----
 
-Xin cảm ơn vì đã đọc bài viết, các bạn có thể để lại bình luận bên dưới nhé
-
-Chúc các bạn một ngày học tập và làm việc vui vẻ, tốt lành

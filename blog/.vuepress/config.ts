@@ -56,7 +56,7 @@ export default defineUserConfig({
 		// personal information
 		personalInfo: {
 			name: "Lập Trình Cùng Ếch",
-			avatar: "https://github.com/dangtranhuu/images/blob/main/frog/logo/Picsart_23-10-19_13-24-48-304.png?raw=true",
+			avatar: "/img/logo/frogsage.png",
 			// description: "いつか、私がヒトじゃなくなっても",
 			description: "Môi trường học tập dành cho sinh viên CNTT",
 			sns: {
@@ -72,24 +72,24 @@ export default defineUserConfig({
 		// header images on home page
 		homeHeaderImages: [
 			{
-				path: "/img/home-bg/1.jpg",
+				path: "/img/home-bg/1.png",
 				mask: "rgba(40, 57, 101, .4)"
 			},
 			{
-				path: "/img/home-bg/2.jpg",
+				path: "/img/home-bg/2.png",
 				mask: "rgba(196, 176, 131, .1)"
 			},
 			{
-				path: "/img/home-bg/3.jpg",
+				path: "/img/home-bg/3.png",
 				mask: "rgba(68, 74, 83, .1)"
 			},
-			{
-				path: "/img/home-bg/4.jpg",
-				mask: "rgba(19, 75, 50, .2)"
-			},
-			{
-				path: "/img/home-bg/5.jpg"
-			}
+			// {
+			// 	path: "/img/home-bg/4.jpg",
+			// 	mask: "rgba(19, 75, 50, .2)"
+			// },
+			// {
+			// 	path: "/img/home-bg/5.jpg"
+			// }
 		],
 
 		// other pages
@@ -341,8 +341,8 @@ export default defineUserConfig({
 						icon: "vi-file-type-glitter",
 						children: [
 							{
-								text: "MS Ofice 2026",
-								link: "/docs/intro.md",
+								text: "MS Ofice 2016",
+								link: "https://drive.google.com/file/d/1WaU74f2Bjl_hA3dTiulAQAOxe1SekfwD/view?usp=drive_link",
 								icon: "vi-folder-type-windows"
 							},
 						]
@@ -384,7 +384,7 @@ export default defineUserConfig({
 							},
 							{
 								text: "Media Encoder 2023",
-								link: "https://drive.google.com/file/d/1yQBVkxIYwE4R2M5RrIY_mynhOa2VJfYT/view?usp=sharing",
+								link: "https://drive.google.com/uc?id=1yQBVkxIYwE4R2M5RrIY_mynhOa2VJfYT",
 								icon: "co-adobe"
 							},
 						]

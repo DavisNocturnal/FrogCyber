@@ -1,6 +1,6 @@
 <template><div><p><a href="">JWT</a> là một hình thức xác thực người dùng rất bảo mật, hiệu quả và phổ biến trong mô hình<a href="">CSR</a></p>
-<p><img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/1.png?raw=true" alt=""></p>
-<p>Trong lúc tự học NodeJS mình đã xây dựng một Web app (SpringBoot, SQL, Angular). Bạn có thể xem mã nguồn tại <a href="https://github.com/Theanishtar/Davitickets" target="_blank" rel="noopener noreferrer">đây</a></p>
+<p><img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtspringboot/main.png?raw=true" alt=""></p>
+<p>Trong lúc tự học RestfulAPI với <a href="">SpringBoot</a> mình đã xây dựng một Web app (SpringBoot, SQL, Angular). Bạn có thể xem mã nguồn tại <a href="https://github.com/Theanishtar/Davitickets" target="_blank" rel="noopener noreferrer">đây</a></p>
 <p>Trong đó có chức năng Xác thực bằng <strong>JWT</strong> <em>(Json Web Token)</em>, mình sẽ cùng tìm hiểu trong bài viết hôm nay nhé!!!</p>
 <p>Mình có một số lưu ý sau đây:</p>
 <ul>
@@ -9,13 +9,14 @@
 </ul>
 <p>Okay bắt đầu thoy !!!</p>
 <details class="custom-container details"><summary><b>Nội dung chính</b></summary>
-<p><img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/2.png?raw=true" alt="Nguyên lý">
-<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/3.png?raw=true" alt="Thành phần">
-<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/4.png?raw=truee" alt="Tính chất lựa ">
-<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/5.png?raw=true" alt="Ưu điểm">
-<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/6.png?raw=true" alt="Nhược điểm">
-<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/7.png?raw=true" alt="Bài tập">
-<img src="https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/8.png?raw=true" alt="Bài giải"></p>
+<p>Sẽ cập nhật sau ^^</p>
+<!-- ![Nguyên lý](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/2.png?raw=true)
+![Thành phần](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/3.png?raw=true)
+![Tính chất lựa ](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/4.png?raw=truee)
+![Ưu điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/5.png?raw=true)
+![Nhược điểm](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/6.png?raw=true)
+![Bài tập](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/7.png?raw=true)
+![Bài giải](https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/cont/8.png?raw=true) -->
 </details>
 <h2 id="xay-dung-csdl" tabindex="-1"><a class="header-anchor" href="#xay-dung-csdl" aria-hidden="true">#</a> Xây dựng CSDL</h2>
 <p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/jwt/diagram.png?raw=true" alt="Diagram DB"></p>
@@ -124,45 +125,29 @@
 </table>
 <h2 id="tao-du-an" tabindex="-1"><a class="header-anchor" href="#tao-du-an" aria-hidden="true">#</a> Tạo dự án</h2>
 <h3 id="tao-du-an-voi-spring-tools-sute" tabindex="-1"><a class="header-anchor" href="#tao-du-an-voi-spring-tools-sute" aria-hidden="true">#</a> Tạo dự án với Spring Tools Sute</h3>
-<p>Các bạn tạo dự <code v-pre>Spring Stater Project</code> và thêm các <code v-pre>dependencys</code> sau nhé (mình sẽ bỏ qua các <em>dependencies</em> mặc định và chỉ đề cập đến những <em>dependencies</em> cần thiết cho dự án hôm nay thôi nhé)</p>
+<div class="custom-container tip"><svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"><path d="M297.6 258.73H296c-59.47.87-110.69 51.45-111.83 110.43-.626 36.485 16.525 71.085 45.94 92.68 17.86 13.18 29.88 33.56 33.77 56.42h67.62c4-22.82 16.13-43.3 34.16-56.74 28.589-21.097 45.496-54.587 45.496-90.118 0-30.03-12.078-58.833-33.496-79.882a113.133 113.133 0 0 0-80.06-32.79ZM265.19 550.7v26.6c0 4.84 1.17 6.43 1.17 6.43l63.72-.59V550.7h-64.89Z" style="fill:#48b884;fill-rule:nonzero" transform="matrix(.042 0 0 .042 0 -5.178)"/><path d="M297.64 123.3C133.26 123.3 0 256.56 0 420.94s133.26 297.63 297.64 297.63 297.63-133.25 297.63-297.63S462 123.3 297.64 123.3ZM385 487.57c-14.11 10.48-22.51 28.09-22.51 47.14v48.43c-.016 17.792-14.648 32.428-32.44 32.45h-64.86c-15.6 0-32.44-12-32.44-38.29v-42.82c0-19-8.21-36.4-21.93-46.52-37.882-27.85-59.959-72.44-59.14-119.45 1.46-77.24 66-141.09 143.81-142.22 38.87.19 76.89 14.37 105 42.11a143.764 143.764 0 0 1 43.14 103c-.159 45.761-21.911 88.86-58.63 116.17Z" style="fill:#48b884;fill-rule:nonzero" transform="matrix(.042 0 0 .042 0 -5.178)"/></svg><p class="custom-container-title"><b>MẸO</b></p>
+<p>Các bạn có thể tải <RouterLink to="/post/backend/jwt-springboot/#spring">Spring Tools Sute</RouterLink> tại <a href="">đây</a> nhé.</p>
+<p>Hoặc cũng có thể sử dụng <RouterLink to="/post/backend/jwt-springboot/#spring">VS Code</RouterLink> thay thế!</p>
+</div>
+<p>Các bạn tạo dự <code v-pre>Spring Stater Project</code> và thêm các <code v-pre>dependencies</code> sau nhé (mình sẽ bỏ qua các <em>dependencies</em> mặc định và chỉ đề cập đến những <em>dependencies</em> cần thiết cho dự án hôm nay thôi nhé)</p>
 <p><em>pom.xml</em></p>
 <div class="language-xml ext-xml"><pre v-pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span><span class="token punctuation">></span></span>		
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.security<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-security-test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">></span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">></span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-		
-		<span class="token comment">&lt;!-- Addition --></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-starter-data-jpa<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>io.jsonwebtoken<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>jjwt<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>0.9.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
 
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>com.microsoft.sqlserver<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>mssql-jdbc<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">></span></span>runtime<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">></span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.security<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-security-oauth2-client<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>io.jsonwebtoken<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>jjwt<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>0.9.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>com.auth0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>java-jwt<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>3.19.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>com.auth0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>java-jwt<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>3.19.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">></span></span>
 </code></pre></div><h3 id="cau-hinh-cac-bien-moi-truong" tabindex="-1"><a class="header-anchor" href="#cau-hinh-cac-bien-moi-truong" aria-hidden="true">#</a> Cấu hình các biến môi trường</h3>
+<ul>
+<li>Tùy chỉnh theo yêu cầu của bạn trong tệp <RouterLink to="/post/backend/jwt-springboot/#spring"><code v-pre>application.properties</code></RouterLink></li>
+</ul>
 <div class="language-properties ext-properties"><pre v-pre class="language-properties"><code><span class="token key attr-name">spring.jpa.properties.hibernate.enable_lazy_load_no_trans</span><span class="token punctuation">=</span><span class="token value attr-value">true</span>
 
 <span class="token comment">#dtb</span>
@@ -356,10 +341,110 @@
 	<span class="token class-name">String</span> refreshToken<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre></div><h2 id="tao-cac-services" tabindex="-1"><a class="header-anchor" href="#tao-cac-services" aria-hidden="true">#</a> Tạo các services</h2>
+<h3 id="lop-jwtservice" tabindex="-1"><a class="header-anchor" href="#lop-jwtservice" aria-hidden="true">#</a> Lớp JwtService</h3>
+<p>Tạo lớp <code v-pre>JwtService.java</code> và thêm hai phương thức sau:</p>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Configuration</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JwtService</span> <span class="token punctuation">{</span>
+	<span class="token annotation punctuation">@Value</span><span class="token punctuation">(</span><span class="token string">"${jwt.secret}"</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> secret<span class="token punctuation">;</span>
+	
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">final</span> <span class="token keyword">long</span>    <span class="token constant">JWT_TOKEN_VALIDITY</span>  <span class="token operator">=</span> <span class="token number">5</span> <span class="token operator">*</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">1000</span><span class="token punctuation">;</span> 
+	
+	<span class="token comment">// phương thức khởi tạo access token</span>
+	<span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">generateToken</span><span class="token punctuation">(</span><span class="token class-name">Users</span> user<span class="token punctuation">,</span> <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">SimpleGrantedAuthority</span><span class="token punctuation">></span></span> authorities<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Algorithm</span> algorithm <span class="token operator">=</span> <span class="token class-name">Algorithm</span><span class="token punctuation">.</span><span class="token function">HMAC256</span><span class="token punctuation">(</span>secret<span class="token punctuation">.</span><span class="token function">getBytes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token keyword">return</span> <span class="token constant">JWT</span><span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">withSubject</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span><span class="token function">getEmail</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">withExpiresAt</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">currentTimeMillis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span> <span class="token constant">JWT_TOKEN_VALIDITY</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">withClaim</span><span class="token punctuation">(</span><span class="token string">"roles"</span><span class="token punctuation">,</span> authorities<span class="token punctuation">.</span><span class="token function">stream</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token class-name">GrantedAuthority</span><span class="token operator">::</span> <span class="token function">getAuthority</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">collect</span><span class="token punctuation">(</span><span class="token class-name">Collectors</span><span class="token punctuation">.</span><span class="token function">toList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span>algorithm<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	
+	<span class="token comment">// phương thức khởi tạo refresh token</span>
+	<span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">generateRefreshToken</span><span class="token punctuation">(</span><span class="token class-name">Users</span> user<span class="token punctuation">,</span> <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">SimpleGrantedAuthority</span><span class="token punctuation">></span></span> authorities<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">Algorithm</span> algorithm <span class="token operator">=</span> <span class="token class-name">Algorithm</span><span class="token punctuation">.</span><span class="token function">HMAC256</span><span class="token punctuation">(</span>secret<span class="token punctuation">.</span><span class="token function">getBytes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token keyword">return</span> <span class="token constant">JWT</span><span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">withSubject</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span><span class="token function">getEmail</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">withExpiresAt</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">currentTimeMillis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token constant">JWT_TOKEN_VALIDITY</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span>algorithm<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="lop-authenticationservice" tabindex="-1"><a class="header-anchor" href="#lop-authenticationservice" aria-hidden="true">#</a> Lớp Authenticationservice</h3>
+<p>Bên trong lớp <code v-pre>AuthenticationService.java</code> tạo phương thức <code v-pre>LoginAuth</code></p>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Service</span>
+<span class="token annotation punctuation">@RequiredArgsConstructor</span>
+<span class="token annotation punctuation">@Configuration</span>
+<span class="token annotation punctuation">@EnableWebSecurity</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AuthenticationService</span> <span class="token punctuation">{</span>
+	<span class="token keyword">private</span> <span class="token keyword">final</span> <span class="token class-name">UsersReponsitory</span> usersReponsitory<span class="token punctuation">;</span>
+
+	<span class="token annotation punctuation">@Autowired</span>
+	<span class="token keyword">private</span> <span class="token keyword">final</span> <span class="token class-name">AuthenticationManager</span> authenticationManager<span class="token punctuation">;</span>
+	<span class="token keyword">private</span> <span class="token keyword">final</span> <span class="token class-name">RoleCustomRepo</span> roleCustomRepo<span class="token punctuation">;</span>
+	<span class="token keyword">private</span> <span class="token keyword">final</span> <span class="token class-name">JwtService</span> jwtService<span class="token punctuation">;</span>
+	<span class="token annotation punctuation">@Autowired</span>
+	<span class="token keyword">private</span> <span class="token class-name">PasswordEncoder</span> passwordEncoder<span class="token punctuation">;</span>
+
+	<span class="token keyword">public</span> <span class="token class-name">AuthenticationResponse</span> <span class="token function">loginAuth</span><span class="token punctuation">(</span><span class="token class-name">AuthenticationRequest</span> authenticationRequest<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">try</span> <span class="token punctuation">{</span>
+			<span class="token comment">// tìm kiếm user với email nhận từ Request</span>
+			<span class="token class-name">Users</span> user <span class="token operator">=</span> usersReponsitory<span class="token punctuation">.</span><span class="token function">findByEmail</span><span class="token punctuation">(</span>authenticationRequest<span class="token punctuation">.</span><span class="token function">getEmail</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">orElseThrow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>user<span class="token punctuation">.</span><span class="token function">isAccount_status</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+			<span class="token comment">// Nếu tồn tại và không bị khóa thì tạo ra token</span>
+			<span class="token class-name">UsernamePasswordAuthenticationToken</span> token <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">UsernamePasswordAuthenticationToken</span><span class="token punctuation">(</span>
+				authenticationRequest<span class="token punctuation">.</span><span class="token function">getEmail</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> authenticationRequest<span class="token punctuation">.</span><span class="token function">getPassword</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+			<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+			<span class="token comment">// lấy ra các quyền của User và truyền vào token</span>
+			<span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">SimpleGrantedAuthority</span><span class="token punctuation">></span></span> authorities <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Roles</span><span class="token punctuation">></span></span> set <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashSet</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			role<span class="token punctuation">.</span><span class="token function">stream</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>c <span class="token operator">-></span> set<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Roles</span><span class="token punctuation">(</span>c<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			user<span class="token punctuation">.</span><span class="token function">setRoles</span><span class="token punctuation">(</span>set<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			set<span class="token punctuation">.</span><span class="token function">stream</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>i <span class="token operator">-></span> authorities<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">SimpleGrantedAuthority</span><span class="token punctuation">(</span>i<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			authenticationManager<span class="token punctuation">.</span><span class="token function">authenticate</span><span class="token punctuation">(</span>token<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+			<span class="token keyword">var</span> jwtToken <span class="token operator">=</span> jwtService<span class="token punctuation">.</span><span class="token function">generateToken</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span> authorities<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token keyword">var</span> jwtRefreshToken <span class="token operator">=</span> jwtService<span class="token punctuation">.</span><span class="token function">generateRefreshToken</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span> authorities<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+			<span class="token comment">// Trả về thông tin cần thiết</span>
+			<span class="token keyword">return</span> <span class="token class-name">AuthenticationResponse</span><span class="token punctuation">.</span><span class="token function">builder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">token</span><span class="token punctuation">(</span>jwtToken<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">refreshToken</span><span class="token punctuation">(</span>jwtRefreshToken<span class="token punctuation">)</span>
+					<span class="token punctuation">.</span><span class="token function">name</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span><span class="token function">getFull_name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">roles</span><span class="token punctuation">(</span>authorities<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="viet-api" tabindex="-1"><a class="header-anchor" href="#viet-api" aria-hidden="true">#</a> Viết API</h2>
+<h3 id="viet-api-đang-nhap" tabindex="-1"><a class="header-anchor" href="#viet-api-đang-nhap" aria-hidden="true">#</a> Viết api đăng nhập</h3>
+<p>Tạo lớp <code v-pre>LoginCtrl.java</code> bên trong package Controller</p>
+<p>Mình chỉ viết <code v-pre>controller</code> để trả về <code v-pre>token</code> nếu <code v-pre>Request</code> hợp lệ, còn phần kiểm tra các thông tin khác và trả về thế nào các bạn có thể custom code lại nhá.</p>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@PostMapping</span><span class="token punctuation">(</span><span class="token string">"/oauth/login"</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token class-name">ResponseEntity</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">AuthenticationResponse</span><span class="token punctuation">></span></span> <span class="token function">authLog</span><span class="token punctuation">(</span><span class="token annotation punctuation">@RequestBody</span> <span class="token class-name">AuthenticationRequest</span> authenticationRequest<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> <span class="token class-name">ResponseEntity</span><span class="token punctuation">.</span><span class="token function">ok</span><span class="token punctuation">(</span>authenticationService<span class="token punctuation">.</span><span class="token function">authenticationResponse</span><span class="token punctuation">(</span>authenticationRequest<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="loi-ket" tabindex="-1"><a class="header-anchor" href="#loi-ket" aria-hidden="true">#</a> Lời kết</h2>
+<p>Trên là toàn bộ về <a href="">JWT</a> trong <RouterLink to="/post/backend/jwt-springboot/#spring">SpringBoot</RouterLink>.</p>
+<p>Kì sau chúng ta sẽ cùng tìm hiểu về <a href="">Security</a> trong <RouterLink to="/post/backend/jwt-springboot/#spring">SpringBoot</RouterLink> nhé...</p>
+<p>Chúc các bạn học tập vui vẻ.</p>
 <h2 id="chu-thich" tabindex="-1"><a class="header-anchor" href="#chu-thich" aria-hidden="true">#</a> Chú thích</h2>
-<h4 id="sean-app" tabindex="-1"><a class="header-anchor" href="#sean-app" aria-hidden="true">#</a> SEAN APP</h4>
+<h4 id="spring" tabindex="-1"><a class="header-anchor" href="#spring" aria-hidden="true">#</a> Spring</h4>
 <ul>
-<li><strong>SEAN</strong>: Ý nói các ứng dụng web được xây dựng bằng <b style="color: green" >S</b>ql, <b style="color: green" >E</b>xpressJS, <b style="color: green" >A</b>ngular, <b style="color: green" >N</b>odejs</li>
+<li>
+<p><strong>SpringBoot</strong>: Một <strong>Framework</strong> lập trình phía <em>back-end</em> rất phổ biến của Java.</p>
+</li>
+<li>
+<p><strong>Spring Tools Sute</strong>: Công cụ mở rộng của Eclipse. Spring Tool Suite (STS) là một công cụ mở rộng của Eclipse. Sử dụng để phát triển các ứng dụng Web với Spring.</p>
+</li>
+<li>
+<p><strong>VS Code</strong>: Một Code Editor (không phải IDE). Phổ biến cho việc lập trình, hỗ trợ nhiều ngôn ngữ.</p>
+</li>
+<li>
+<p><strong><code v-pre>application.properties</code></strong>: Một file khai báo các biến môi trường trong ứng dụng <strong>SpringBoot</strong> (Tương tự như <code v-pre>.env</code> trong NodeJS).</p>
+</li>
 </ul>
 <h4 id="token" tabindex="-1"><a class="header-anchor" href="#token" aria-hidden="true">#</a> Token</h4>
 <ul>
@@ -379,6 +464,4 @@
 <li><strong>HTML</strong>: ngôn ngữ đánh dấu, xây dựng website</li>
 </ul>
 <hr>
-<p>Xin cảm ơn vì đã đọc bài viết, các bạn có thể để lại bình luận bên dưới nhé</p>
-<p>Chúc các bạn một ngày học tập và làm việc vui vẻ, tốt lành</p>
 </div></template>

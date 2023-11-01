@@ -5,7 +5,7 @@ subtitle: Phân quyền và đăng nhập trong NodeJS
 author: Trần Hữu Đang
 date: 2023-10-20
 useHeaderImage: false
-headerImage: https://github.com/dangtranhuu/images/blob/main/frogcyber/post/jwtnodejs/1.png?raw=true
+headerImage: img/in-post/back-end/jwtnodejs.png
 headerMask: rgba(70, 112, 80, 0)
 permalinkPattern: /post/backend/:slug/
 tags:
