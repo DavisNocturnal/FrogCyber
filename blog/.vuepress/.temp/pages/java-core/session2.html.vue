@@ -197,13 +197,13 @@ bool <span class="token operator">=</span> <span class="token boolean">true</spa
 </code></pre></div></li>
 <li>
 <p>Viết hoa toàn bộ ghi đặt tên biến là hằng số và sử dụng <strong>final</strong></p>
-<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">float</span> <span class="token constant">PI</span> <span class="token operator">=</span> <span class="token number">3.14f</span><span class="token punctuation">;</span>
-<span class="token keyword">final</span> <span class="token keyword">int</span> <span class="token constant">SOTUCHON</span> <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">float</span> PI <span class="token operator">=</span> <span class="token number">3.14f</span><span class="token punctuation">;</span>
+<span class="token keyword">final</span> <span class="token keyword">int</span> SOTUCHON <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
 </code></pre></div></li>
 </ul>
 <p>Nếu bạn không muốn chỉnh sửa biến đó về sau, cho nó là hằng số và chỉ được phép <em>đọc</em>, thì hãy dùng <strong>final</strong>:</p>
-<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">int</span> <span class="token constant">PI</span> <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span>
-<span class="token constant">PI</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">//hàm này sẽ lỗi vì PI không thể thay đổi</span>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">int</span> PI <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span>
+PI <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">//hàm này sẽ lỗi vì PI không thể thay đổi</span>
 </code></pre></div><hr>
 <h3 id="hien-thi-bien" tabindex="-1"><a class="header-anchor" href="#hien-thi-bien" aria-hidden="true">#</a> Hiển thị biến</h3>
 <p>Sử dụng <code v-pre>System.out.println</code> để hiển thị ra màn hình, và để kết hợp đoạn văn bản và biến hãy sử dụng dấu <code v-pre>+</code> như sau :</p>

@@ -33,7 +33,7 @@ Công cuộc cuối cùng để tới với một Lập trình viên BackEnd Nod
 <p>Nếu máy của bạn đã cài rồi thì thôi bỏ qua, còn chưa thì mở command line rồi gõ  lệnh npm install -g express , tiếp theo gõ lệnh  npm -g install express-generator</p>
 <h3 id="_3-tao-project-đe-thuc-tap" tabindex="-1"><a class="header-anchor" href="#_3-tao-project-đe-thuc-tap" aria-hidden="true">#</a> 3. Tạo project để thực tập</h3>
 <p>Vẫn trong command line rồi chạy lệnh:</p>
-<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>express <span class="token parameter variable">--ejs</span> SuDungAPI
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>express --ejs SuDungAPI
 </code></pre></div><p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/session6/tao-project-voi-express-generator.png?raw=true" alt="object-class-diagrame-1.png"></p>
 <p>Chuyển vào folder SuDungAPI mới tạo và chạy lệnh cài đặt các module cần thiết</p>
 <div class="language-bash ext-sh"><pre v-pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span>

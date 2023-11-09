@@ -16,7 +16,15 @@ Ta có thể giải quyết vấn đề trên bằng 2 lệnh là: [git reset](/
 
 `git reset` được dùng để quay về một điểm commit nào đó, đồng thời xóa lịch sử của các commit trước nó.
 
-Với [ví dụ trên](/github/session3.html#vi-du) ta có thể quay lại commit B bằng câu lệnh
+### Các thao tác 
+
+```bash
+git reset --hard <d_commit>
+
+git push -f
+```
+
+Với [ví dụ trên](/github/session3.html#vi-du) ta có thể quay lại commit `B` bằng câu lệnh
 
 ::: tip
 ```bash
@@ -34,8 +42,8 @@ git reset --hard 06e109
 ::: info NHẬN XÉT
 Sau thi thực hiện câu lệnh ta có thể thấy rằng:
 
-- Các commit sau B lần lượt là C và D sẽ bị xóa đi và danh sách commit sẽ trở về như lúc vừa commit B xong
-- Con trỏ hiện tại (HEAD) sẽ quay về commit B, biểu thị B là commit cuối cùng
+- Các commit sau `B` lần lượt là `C` và `D` sẽ bị xóa đi và danh sách commit sẽ trở về như lúc vừa commit `B` xong
+- Con trỏ hiện tại (HEAD) sẽ quay về commit `B`, biểu thị `B` là commit cuối cùng
 :::
 
 ## 3.2 Git Revert
@@ -52,10 +60,10 @@ Sơ đồ git sau khi Revert sẽ như sau:
 ::: info NHẬN XÉT
 Sau thi thực hiện câu lệnh ta có thể thấy rằng:
 
-- Commit B' được tạo ra từ commit B
-- Commit B sẽ được tái commit với tên gọi là B'
-- Các commit C và D sẽ không bị xóa đi
-- Con trỏ HEAD sẽ đứng ở Commit B'
+- Commit `B'` được tạo ra từ commit `B`
+- Commit `B` sẽ được tái commit với tên gọi là `B'`
+- Các commit `C` và `D` sẽ không bị xóa đi
+- Con trỏ HEAD sẽ đứng ở Commit `B'`
 :::
 
 

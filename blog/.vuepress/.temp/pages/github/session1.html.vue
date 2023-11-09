@@ -34,9 +34,9 @@ bất kì người nào có tài khoản Github.</p>
 <p><strong>Bước 1: Click chuột phải vào màn hình và chọn <mark>Git Bash Here</mark></strong></p>
 <p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/github/session1/ab23d3822f7afa24a36b.jpg?raw=true" alt="Bash Git"></p>
 <p><strong>Bước 2: Tiến hành gõ lần lượt các lệnh sau</strong></p>
-<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name myname	
-$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email myemail@example.com
-$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.password mypassword
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">git</span> config --global user.name myname	
+$ <span class="token function">git</span> config --global user.email myemail@example.com
+$ <span class="token function">git</span> config --global user.password mypassword
 </code></pre></div><div class="custom-container warning"><svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"><path d="M297.65 123.32C133.27 123.32 0 256.58 0 421c0 164.42 133.27 297.6 297.65 297.6 164.38 0 297.64-133.26 297.64-297.6 0-164.34-133.29-297.68-297.64-297.68Zm-.6 483.32c-22.591 0-41.18-18.589-41.18-41.18s18.589-41.18 41.18-41.18 41.18 18.589 41.18 41.18-18.589 41.18-41.18 41.18Zm42.38-164.27h-.23c-.139 22.489-18.681 40.916-41.17 40.916-22.586 0-41.171-18.585-41.171-41.171l.001-.255c0-1 .05-1.93.11-2.88V276.73h.03v-.27a45.8 45.8 0 0 1-.005-.642c0-22.59 18.589-41.18 41.18-41.18s41.18 18.59 41.18 41.18c0 .214-.002.428-.005.642v.27h.06l.02 165.64Z" style="fill:#f3cc2e;fill-rule:nonzero" transform="matrix(.042 0 0 .042 0 -5.18)"/></svg><p class="custom-container-title">WARNING</p>
 <p>Thay thế các từ sau:</p>
 <ul>
@@ -48,7 +48,7 @@ $ <span class="token function">git</span> config <span class="token parameter va
 <p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/github/session1/dangnhap.png?raw=true" alt="Bash Git"></p>
 <p><strong>Bước 3: Kiểm tra đã đăng nhập thành công hay chưa</strong></p>
 <p>Gõ lệnh sau và <strong>enter</strong>:</p>
-<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">git</span> config <span class="token parameter variable">--list</span>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">git</span> config --list
 </code></pre></div><p>Nếu dữ liệu hiện ra như sau (và đúng với thông tin tài khoản GitHub của bạn) thì đã đăng nhập thành công!</p>
 <p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/github/session1/list.png?raw=true" alt="Bash Git"></p>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/RV_jojt_2bo?si=KhYiTBJdNeHYFfMa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

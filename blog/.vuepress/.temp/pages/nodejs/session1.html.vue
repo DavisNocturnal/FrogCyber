@@ -62,8 +62,8 @@ Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng 
 <p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/session1/cai-dat-nodejs.png?raw=true" alt="object-class-diagrame-1.png"></p>
 <h3 id="_3-kiem-tra-va-cau-hinh" tabindex="-1"><a class="header-anchor" href="#_3-kiem-tra-va-cau-hinh" aria-hidden="true">#</a> 3. Kiểm tra và cấu hình</h3>
 <p>Mở cửa sổ CMD và thực thi các lệnh sau để kiểm tra phiên bản của NodeJS và NPM:</p>
-<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code><span class="token function">node</span> <span class="token parameter variable">-v</span>
-<span class="token function">npm</span> <span class="token parameter variable">-v</span>
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code><span class="token function">node</span> -v
+<span class="token function">npm</span> -v
 </code></pre></div><h3 id="_4-test-hoat-đong-cua-nodejs" tabindex="-1"><a class="header-anchor" href="#_4-test-hoat-đong-cua-nodejs" aria-hidden="true">#</a> 4. Test họat động của NodeJS</h3>
 <p>a. Tạo 1 folder  tên tùy ý</p>
 <p>b. Trong folder mới tạo, tạo 1 file tên chao.js và mở lên gõ code</p>
@@ -114,7 +114,7 @@ app.listen<span class="token punctuation">(</span><span class="token number">808
 Định nghĩa router cho phép sử dụng với các hành động khác nhau dựa trên phương thức HTTP và URL
 Cho phép trả về các trang HTML dựa vào các tham số
 Để cài đặt express, trong folder project, bạn gõ lệnh sau:</p>
-<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">--save</span> express
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> --save express
 </code></pre></div><p>Option <mark>–save</mark> để đảm bảo ExpressJs được thêm vào package.json như là một dependency (một package cần để ứng dụng chạy được).  Chạy xong,  hãy xem trong folder project của bạn, sẽ thấy các module được thêm vào</p>
 <h4 id="tao-file-server-js-su-dung-module-express" tabindex="-1"><a class="header-anchor" href="#tao-file-server-js-su-dung-module-express" aria-hidden="true">#</a> Tạo file server.js sử dụng module express</h4>
 <div class="language-javascript ext-js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> exp <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"express"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>

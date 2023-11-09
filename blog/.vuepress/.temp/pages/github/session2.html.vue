@@ -44,7 +44,7 @@
 <p>Tại thư mục, click chuột phải để mở <RouterLink to="/github/session1.html#%C4%91ang-nhap-vao-git">Git Bash</RouterLink></p>
 <p>Gõ lần lượt các lệnh sau</p>
 <div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>$ <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
-$ <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"add code"</span>
+$ <span class="token function">git</span> commit -m <span class="token string">"add code"</span>
 $ <span class="token function">git</span> push 
 </code></pre></div><p><strong>Lên GitHub và kiểm tra</strong></p>
 <ul>
