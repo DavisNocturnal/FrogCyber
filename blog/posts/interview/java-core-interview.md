@@ -7,7 +7,7 @@ date: 2023-11-01
 useHeaderImage: false
 headerImage: img/in-post/interview/session1.png
 headerMask: rgba(70, 112, 80, 0)
-permalinkPattern: /post/backend/:slug/
+permalinkPattern: /post/interview/:slug/
 tags:
   - interview
   - Java
